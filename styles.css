@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Felipa&display=swap');
+
+html, body{ 
+    font-family: 'Felipa', cursive;
+    box-sizing: border-box;
+    margin:auto;
+    background-color: darkturquoise;
+    border: rgb(93, 65, 135) 5px solid;
+    height: 100%;
+    border-radius: 15%;
+
+    
+}
+
+h1{
+    text-align: center;
+    color: rgb(21, 70, 176);
+    letter-spacing: 15px;
+    text-shadow: rgba(255, 255, 255, 0.89) 1px 2px;
+    padding: 0;
+    margin:15px;
+}
+
+
+.text-container{
+    background-color: rgb(202, 242, 236); 
+    border: solid 2px rgba(0, 0, 0, 0.3);
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 80%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15%;
+ 
+   
+}  
+.paradiv {
+    text-align: center;
+    // background-color: #b968684b;
+    flex: 1;
+
+
+
+ }
+ p{
+     color: #200a9b;
+     font-size: 2rem;
+ }
+.button-container{   
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    // background-color: rgba(49, 136, 136, 0.627);
+
+
+}
+
+.fb-btn{
+    background-color: #200a9b;
+    color: antiquewhite;
+    margin: 10px;
+    margin-bottom: 12px;
+    padding: 5px;
+    border-radius: 10%;
+ 
+}
+
+.new-verse-btn{
+    background-color: #200a9b;
+    color: antiquewhite;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
