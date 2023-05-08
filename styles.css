@@ -14,7 +14,7 @@ html, body{
 
 h1{
     text-align: center;
-    color: rgb(21, 70, 176);
+    color: rgb(13, 51, 134);
     letter-spacing: 15px;
     text-shadow: rgba(255, 255, 255, 0.89) 1px 2px;
     padding: 0;
@@ -23,8 +23,8 @@ h1{
 
 
 .text-container{
-    background-color: rgb(202, 242, 236); 
-    border: solid 2px rgba(0, 0, 0, 0.3);
+    background-color: rgb(166, 231, 222); 
+    border: solid 2px rgba(41, 27, 236, 0.422);
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -44,8 +44,18 @@ h1{
 
  }
  p{
-     color: #200a9b;
-     font-size: 2rem;
+     color: #14050e;
+     font-size: 1.75rem;
+     padding:20px;
+     letter-spacing: 5px;
+     font-weight: 800;
+     text-shadow: rgba(77, 187, 217, 0.89) 1px 2px
+
+ }
+ p::first-letter {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(216, 7, 7);
  }
 .button-container{   
     display: flex;
