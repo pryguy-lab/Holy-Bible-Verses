@@ -5,9 +5,10 @@ html, body{
     box-sizing: border-box;
     margin:auto;
     background-color: darkturquoise;
-    border: rgb(93, 65, 135) 5px solid;
-    height: 100%;
+    border: rgba(251, 251, 251, 0.896) 2px solid;
     border-radius: 15%;
+    padding-bottom: 20px;
+
 
     
 }
@@ -16,14 +17,15 @@ h1{
     text-align: center;
     color: rgb(13, 51, 134);
     letter-spacing: 15px;
-    text-shadow: rgba(255, 255, 255, 0.89) 1px 2px;
+    text-shadow: rgba(255, 255, 255, 0.89) 2px 2px;
     padding: 0;
     margin:15px;
+    font-size: 3rem;
 }
 
 
 .text-container{
-    background-color: rgb(166, 231, 222); 
+    background-color: rgba(166, 231, 222, 0.752); 
     border: solid 2px rgba(41, 27, 236, 0.422);
     max-width: 1000px;
     margin-left: auto;
@@ -32,6 +34,9 @@ h1{
     display: flex;
     flex-direction: column;
     border-radius: 15%;
+    // padding:10px
+
+
  
    
 }  
@@ -39,6 +44,7 @@ h1{
     text-align: center;
     // background-color: #b968684b;
     flex: 1;
+    line-height: 3em;
 
 
 
