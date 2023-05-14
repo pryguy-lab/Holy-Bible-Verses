@@ -34,7 +34,7 @@ h1{
     display: flex;
     flex-direction: column;
     border-radius: 15%;
-    // padding:10px
+    padding:20px
 
 
  
@@ -75,18 +75,21 @@ h1{
 .fb-btn{
     background-color: #200a9b;
     color: antiquewhite;
-    margin: 10px;
-    margin-bottom: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     padding: 5px;
     border-radius: 10%;
+    font-size: 1.2rem;
  
 }
 
 .new-verse-btn{
     background-color: #200a9b;
     color: antiquewhite;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     padding: 5px;
     border-radius: 10%;
-    margin-bottom: 20px;
+    font-size: 1.2rem;
+ 
 }
