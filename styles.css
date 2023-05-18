@@ -19,14 +19,14 @@ h1{
     letter-spacing: 15px;
     text-shadow: rgba(255, 255, 255, 0.89) 2px 2px;
     margin:15px;
-    font-size: 6rem;
+    font-size: 3rem;
     
 }
-@media screen and (max-width: 700px) {          
-    h1{font-size: 2.25rem; 
-    letter-spacing: 7px;      
-}
-}
+// @media screen and (max-width: 700px) {          
+//     h1{font-size: 2.25rem; 
+//     letter-spacing: 7px;      
+// }
+// }
 
 .text-container{
     background-color: rgba(227, 247, 244, 0.752); 
