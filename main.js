@@ -6,14 +6,13 @@ const verse = document
 const fb = document.getElementById("fb-btn").addEventListener("click", () => {
   alert("hello fb");
 });
-const apiKey = "46bb0297b1931afc851a3877bf2f1e50";
 
-const apiUrl = `
-https://api.scripture.api.bible/v1/bibles/kjv/books?include-chapters=true&client_id=${apiKey}`;
+const apiUrl = `https://labs.bible.org/api/?passage=random`;
 
 async function getVerses() {
   try {
     const response = await fetch(apiUrl);
     versesArray = await response.json();
+    console.log(versesArray);
   } catch (error) {}
 }
