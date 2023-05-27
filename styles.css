@@ -4,22 +4,24 @@ html, body{
     font-family: 'Felipa', cursive;
     box-sizing: border-box;
     margin:auto;
-    background-color: darkturquoise;
+    background-color: rgb(36, 55, 88);
     border: rgba(251, 251, 251, 0.896) 2px solid;
     border-radius: 15%;
     padding-bottom: 10px;
     padding-top: 10px;
     padding-right: 5px;
-    padding-left: 5px;    
+    padding-left: 5px; 
+
 }
 
 h1{
     text-align: center;
-    color: rgb(13, 51, 134);
+    color: rgb(9,84,214);
     letter-spacing: 15px;
-    text-shadow: rgba(255, 255, 255, 0.89) 2px 2px;
+    text-shadow: rgba(251, 251, 251, 0.896) 1px 2px;
     margin:15px;
     font-size: 3rem;
+    // background-color: aquamarine;
     
 }
 // @media screen and (max-width: 700px) {          
@@ -29,7 +31,7 @@ h1{
 // }
 
 .text-container{
-    background-color: rgba(227, 247, 244, 0.966); 
+    background-color: rgba(247, 250, 250, 0.063); 
     border: solid 2px rgba(41, 27, 236, 0.422);
     max-width: 1000px;
     margin-left: auto;
@@ -38,34 +40,47 @@ h1{
     display: flex;
     flex-direction: column;
     border-radius: 15%;
-    padding:20px
-
-
- 
+    padding:20px;
+    // background-color: brown;
    
 }  
-.paradiv {
+.paragraph-container {
     text-align: center;
-    // background-color: #b968684b;
     flex: 1;
     line-height: 3em;
-
-
+    // background-color: bisque;
 
  }
+
  .paragraph{
-     color: #000000;
-     font-size: 1.75rem;
+     color: rgb(234, 226, 226);
+     font-size: 4rem;
      padding:20px;
-     letter-spacing: 5px;
+     letter-spacing: 10px;
+     line-height: 1.2em;
      font-weight: 800;
-    //  text-shadow: rgba(77, 187, 217, 0.89) 1px 2px
+     text-shadow: rgba(6, 15, 18, 0.89) 2px 2px;
+     margin: 0;
+
 
  }
  p::first-letter {
-    font-size: 3rem;
+    font-size: 6rem;
     font-weight: bold;
     color: rgb(216, 7, 7);
+    text-shadow: rgba(6, 15, 18, 0.89) 2px 2px
+ }
+ .verse{
+    color: rgb(234,226,226);
+    font-size: 2rem;
+    text-shadow: rgba(6, 15, 18, 0.89) 2px 2px;
+ }
+ .verse::first-letter{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(216, 7, 7);
+    text-shadow: rgba(6, 15, 18, 0.89) 2px 2px
+
  }
 .button-container{   
     display: flex;
@@ -83,7 +98,7 @@ h1{
     margin-bottom: 20px;
     padding: 5px;
     border-radius: 10%;
-    font-size: 1.2rem;
+    font-size: 1rem;
  
 }
 
@@ -94,6 +109,6 @@ h1{
     margin-bottom: 20px;
     padding: 5px;
     border-radius: 10%;
-    font-size: 1.2rem;
+    font-size: 1rem;
  
 }
