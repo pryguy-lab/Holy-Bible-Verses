@@ -7,13 +7,11 @@ const fb = document.getElementById("fb-btn").addEventListener("click", () => {
   alert("hello fb");
 });
 
-const apiUrl = `https://labs.bible.org/api/?passage=random`;
-
 async function logJSONData() {
-  const response = await fetch(
-    "http://crossorigin.me/https://labs.bible.org/api/?passage=random"
-  );
-  console.log(response);
+  const response = await fetch("https://bible-api.com");
+  const data = await response.json;
+  console.log(data);
+  // console.log(data);
 }
-console.log("hello");
+// console.log("hello");
 logJSONData();
