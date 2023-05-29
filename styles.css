@@ -58,7 +58,7 @@ h1{
 
  .paragraph{
      color: rgb(234, 226, 226);
-     font-size: 3.5rem;
+     font-size: 3rem;
      padding:20px;
      letter-spacing: 7px;
      line-height: 1.2em;
@@ -68,6 +68,8 @@ h1{
     //  background-color: aqua;
      
  }
+ .verse-span{
+    font-size: 1rem }
 
  @media screen and (max-width:500px){
    .paragraph{ font-size: 2rem;
