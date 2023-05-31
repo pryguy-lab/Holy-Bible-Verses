@@ -11,8 +11,9 @@ html, body{
     padding-top: 10px;
     padding-right: 5px;
     padding-left: 5px; 
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
+    height: auto;
 
 }
 
