@@ -52,7 +52,6 @@ h1{
 .paragraph-container {
     text-align: center;
     flex: 1;
-    line-height: 3em;
     // background-color: bisque;
 
  }
@@ -69,15 +68,13 @@ h1{
     //  background-color: aqua;
      
  }
- .verse-span{
-    font-size: 1rem }
 
  @media screen and (max-width:500px){
-   .paragraph{ font-size: 2rem;
-            letter-spacing: 3px;}
-   
+    .paragraph{ font-size: 2rem;
+             letter-spacing: 3px;}
     
- }
+     
+  }
 
  p::first-letter {
     font-size: 5rem;
@@ -91,19 +88,28 @@ h1{
     }
     
 }
- .verse{
+ .book{
     color: rgb(234,226,226);
     font-size: 2rem;
     text-shadow: rgba(6, 15, 18, 0.89) 2px 2px;
     
  }
- .verse::first-letter{
+ .book::first-letter{
     font-size: 2.5rem;
     font-weight: bold;
     color: rgb(216, 7, 7);
     text-shadow: rgba(6, 15, 18, 0.89) 2px 2px
 
  }
+ .verses{
+    font-size: 2rem;
+
+ }
+ .version{
+    font-size: .5em;
+    font-weight: bold;
+ }
+
 .button-container{   
     display: flex;
     align-items: flex-start;
