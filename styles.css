@@ -1,142 +1,130 @@
-@import url('https://fonts.googleapis.com/css2?family=Felipa&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Felipa&display=swap");
 
-html, body{ 
-    font-family: 'Felipa', cursive;
-    box-sizing: border-box;
-    margin:auto;
-    background-color: rgb(36, 55, 88);
-    border: rgba(251, 251, 251, 0.896) 2px solid;
-    border-radius: 15%;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-right: 5px;
-    padding-left: 5px; 
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: auto;
-
+html,
+body {
+  font-family: "Felipa", cursive;
+  box-sizing: border-box;
+  margin: auto;
+  background-color: rgb(36, 55, 88);
+  border: rgba(251, 251, 251, 0.896) 2px solid;
+  border-radius: 15%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
 }
 
-h1{
-    text-align: center;
-    color: rgb(9,84,214);
-    letter-spacing: 15px;
-    text-shadow: rgba(251, 251, 251, 0.896) 1px 2px;
-    margin:15px;
-    font-size: 3rem;
-    
-    // background-color: aquamarine;
-    
+h1 {
+  text-align: center;
+  color: rgb(9, 84, 214);
+  letter-spacing: 15px;
+  text-shadow: rgba(251, 251, 251, 0.896) 1px 2px;
+  margin: 15px;
+  font-size: 3rem;
+
+  // background-color: aquamarine;
 }
-@media screen and (max-width:500px) {
-    h1{font-size:2rem ;
-    letter-spacing: 5px;}
-    
-}
-
-
-.text-container{
-    background-color: rgba(67, 146, 146, 0.419); 
-    border: solid 2px rgba(41, 27, 236, 0.422);
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    // min-height: 80%;
-    display: flex;
-    flex-direction: column;
-    border-radius: 15%;
-    padding:20px;
-    // background-color: brown;
-   
-}  
-.paragraph-container {
-    text-align: center;
-    flex: 1;
-    // background-color: bisque;
-
- }
-
- .paragraph{
-     color: rgb(234, 226, 226);
-     font-size: 3rem;
-     padding:20px;
-     letter-spacing: 7px;
-     line-height: 1.2em;
-     font-weight: 800;
-     text-shadow: rgba(6, 15, 18, 0.89) 2px 2px;
-     margin: 0;
-    //  background-color: aqua;
-     
- }
-
- @media screen and (max-width:500px){
-    .paragraph{ font-size: 2rem;
-             letter-spacing: 3px;}
-    
-     
-  }
-
- p::first-letter {
-    font-size: 5rem;
-    font-weight: bold;
-    color: rgb(216, 7, 7);
-    text-shadow: rgba(6, 15, 18, 0.89) 2px 2px;
- }
-@media screen and (max-width:500px){
-    p::first-letter{
-        font-size: 2.5rem;
-    }
-    
-}
- .book{
-    color: rgb(234,226,226);
+@media screen and (max-width: 500px) {
+  h1 {
     font-size: 2rem;
-    text-shadow: rgba(6, 15, 18, 0.89) 2px 2px;
-    
- }
- .book::first-letter{
+    letter-spacing: 5px;
+  }
+}
+
+.text-container {
+  // background-color: rgba(67, 146, 146, 0.419);
+  border: solid 5px rgba(21, 7, 228, 0.748);
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  // min-height: 80%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15%;
+  padding: 20px;
+  // background-color: brown;
+}
+.paragraph-container {
+  text-align: center;
+  flex: 1;
+//   background-color: bisque;
+}
+
+.paragraph {
+  color: rgb(234, 226, 226);
+  font-size: 3rem;
+  padding: 20px;
+  letter-spacing: 7px;
+  line-height: 1.8em;
+  font-weight: 800;
+  text-shadow: rgba(6, 15, 18, 0.89) 2px 2px;
+  margin: 0;
+  //  background-color: aqua;
+}
+
+@media screen and (max-width: 500px) {
+  .paragraph {
+    font-size: 2rem;
+    letter-spacing: 3px;
+  }
+}
+
+p::first-letter {
+  font-size: 5rem;
+  font-weight: bold;
+  color: rgb(216, 7, 7);
+  text-shadow: rgba(6, 15, 18, 0.89) 2px 2px;
+}
+@media screen and (max-width: 500px) {
+  p::first-letter {
     font-size: 2.5rem;
-    font-weight: bold;
-    color: rgb(216, 7, 7);
-    text-shadow: rgba(6, 15, 18, 0.89) 2px 2px
-
- }
- .verses{
-    font-size: 1em;
-
- }
- .version{
-    font-size: .5em;
-    font-weight: bold;
- }
-
-.button-container{   
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-    // background-color: rgba(49, 136, 136, 0.627);
-
-
+  }
+}
+.book {
+  color: rgb(234, 226, 226);
+  font-size: 2rem;
+  text-shadow: rgba(6, 15, 18, 0.89) 2px 2px;
+}
+.book::first-letter {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(216, 7, 7);
+  text-shadow: rgba(6, 15, 18, 0.89) 2px 2px;
+}
+.verses {
+  font-size: 1em;
+}
+.version {
+  font-size: 0.5em;
+  font-weight: bold;
 }
 
-.fb-btn{
-    background-color: rgba(48, 22, 195, 0.5);
-    color: antiquewhite;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    padding: 5px;
-    border-radius: 10%;
-    font-size: 1rem;
- 
+.button-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  // background-color: rgba(49, 136, 136, 0.627);
 }
 
-.new-verse-btn{
-    background-color: rgba(48, 22, 195, 0.5);
-    color: antiquewhite;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    padding: 5px;
-    border-radius: 10%;
-    font-size: 1rem;
- 
+.fb-btn {
+  background-color: rgba(48, 22, 195, 0.5);
+  color: antiquewhite;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 10%;
+  font-size: 1rem;
+}
+
+.new-verse-btn {
+  background-color: rgba(48, 22, 195, 0.5);
+  color: antiquewhite;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 10%;
+  font-size: 1rem;
 }
