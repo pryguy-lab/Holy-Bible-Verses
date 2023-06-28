@@ -54,20 +54,20 @@ h1 {
 }
 
 .paragraph {
-  color: rgb(255, 255, 255);
+  color: rgb(19, 6, 120);
   font-size: 3rem;
   padding: 20px;
   letter-spacing: 7px;
   line-height: 1.8em;
   font-weight: 800;
-  text-shadow: rgb(173, 89, 89) 2px 2px;
+  text-shadow: rgb(245, 241, 241) 1px 1px;
   margin: 0;
   //  background-color: aqua;
 }
 
 @media screen and (max-width: 500px) {
   .paragraph {
-    font-size: 2rem;
+    font-size: 2.5rem;
     letter-spacing: 3px;
   }
 }
@@ -80,13 +80,13 @@ p::first-letter {
 }
 @media screen and (max-width: 500px) {
   p::first-letter {
-    font-size: 2.5rem;
+    font-size: 3.0rem;
   }
 }
 .book {
-  color: rgb(234, 226, 226);
+  color: rgb(19,6,120);
   font-size: 2rem;
-  text-shadow: rgba(6, 15, 18, 0.89) 2px 2px;
+  text-shadow: rgb(245, 241, 241) 1px 1px;
 }
 .book::first-letter {
   font-size: 2.5rem;
