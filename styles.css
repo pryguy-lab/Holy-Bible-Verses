@@ -85,7 +85,7 @@ p::first-letter {
 }
 @media screen and (max-width: 500px) {
   p::first-letter {
-    font-size: 3.0rem;
+    font-size: 3.5rem;
   }
 }
 .book {
