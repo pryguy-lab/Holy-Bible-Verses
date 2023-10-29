@@ -4,7 +4,8 @@ html,
 body {
   font-family: "Felipa", cursive;
   box-sizing: border-box;
-  margin: auto;
+  // margin: auto;
+  margin:8px;
   background-color: rgb(36, 55, 88);
   border: rgba(251, 251, 251, 0.896) 2px solid;
   border-radius: 15%;
@@ -14,7 +15,8 @@ body {
   padding-left: 5px;
   background-size: cover;
   background-repeat: no-repeat;
-  
+ 
+
 }
 
 h1 {
@@ -27,6 +29,7 @@ h1 {
 
   // background-color: aquamarine;
 }
+
 @media screen and (max-width: 500px) {
   h1 {
     font-size: 2rem;
@@ -35,9 +38,9 @@ h1 {
 }
 
 .text-container {
-  // background-color: rgba(67, 146, 146, 0.419);
+  //background-color: rgba(67, 146, 146, 0.419);
   border: solid 5px rgba(21, 7, 228, 0.748);
-  max-width: 1000px;
+  max-width: 98%;
   margin-left: auto;
   margin-right: auto;
   // min-height: 80%;
@@ -45,17 +48,19 @@ h1 {
   flex-direction: column;
   border-radius: 15%;
   padding: 20px;
- // background-color: brown;
+  // background-color: brown;
 }
+
 @media screen and (max-width: 500px) {
-  .text-container{
+  .text-container {
     padding: 0;
   }
 }
+
 .paragraph-container {
   text-align: center;
   flex: 1;
-//   background-color: bisque;
+  //   background-color: bisque;
 }
 
 .paragraph {
@@ -83,25 +88,30 @@ p::first-letter {
   color: rgb(216, 7, 7);
   text-shadow: rgba(6, 15, 18, 0.89) 2px 2px;
 }
+
 @media screen and (max-width: 500px) {
   p::first-letter {
     font-size: 3.5rem;
   }
 }
+
 .book {
-  color: rgb(19,6,120);
+  color: rgb(19, 6, 120);
   font-size: 2rem;
   text-shadow: rgb(245, 241, 241) 1px 1px;
 }
+
 .book::first-letter {
   font-size: 3rem;
   font-weight: bold;
   color: rgb(216, 7, 7);
   text-shadow: rgba(6, 15, 18, 0.89) 2px 2px;
 }
+
 .verses {
   font-size: 1em;
 }
+
 .version {
   font-size: 0.5em;
   font-weight: bold;
