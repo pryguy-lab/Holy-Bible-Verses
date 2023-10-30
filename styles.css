@@ -5,7 +5,7 @@ body {
   font-family: "Felipa", cursive;
   box-sizing: border-box;
   // margin: auto;
-  margin:8px;
+  margin:20px 6px 0px 6px;
   background-color: rgb(36, 55, 88);
   border: rgba(251, 251, 251, 0.896) 2px solid;
   border-radius: 15%;
