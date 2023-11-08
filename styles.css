@@ -32,17 +32,24 @@ h1 {
   text-shadow: rgba(251, 251, 251, 0.896) 1px 2px;
   margin: 15px;
   font-size: 3rem;
+ 
 
   // background-color: aquamarine;
 }
 
 @media screen and (max-width: 500px) {
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     letter-spacing: 5px;
   }
 }
+// span{
+//   border-bottom: 10px solid black;
+//   top: 98px;
+//   width: 80vw;
+//   position: fixed;
 
+// }
 .text-container {
   //background-color: rgba(67, 146, 146, 0.419);
   border: solid 5px rgba(21, 7, 228, 0.748);
@@ -55,11 +62,12 @@ h1 {
   border-radius: 50%;
   padding: 20px;
   // background-color: brown;
+  position: relative;
 }
 
 @media screen and (max-width: 500px) {
   .text-container {
-    padding: 0;
+    padding: 8px;
     border-radius: 25%;
   }
 }
