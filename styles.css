@@ -80,8 +80,8 @@ h1 {
   font-size: 3rem;
   padding-top: 0;
   padding-bottom: 0;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
   letter-spacing: 7px;
   line-height: 1.8em;
   font-weight: 800;
@@ -93,8 +93,11 @@ h1 {
 @media screen and (max-width: 500px) {
   .paragraph {
     font-size: 2.5rem;
-    letter-spacing: 3px;
-    padding: 0;
+    letter-spacing: 2px;
+    padding-top: 0;
+    padding-right: 7px;
+    padding-bottom: 0;
+    padding-left: 7px;
   }
 }
 
