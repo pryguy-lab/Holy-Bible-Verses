@@ -42,13 +42,7 @@ h1 {
     letter-spacing: 5px;
   }
 }
-// span{
-//   border-bottom: 10px solid black;
-//   top: 98px;
-//   width: 80vw;
-//   position: fixed;
 
-// }
 .text-container {
   border: solid 5px rgba(21, 7, 228, 0.748);
   max-width: 98%;
