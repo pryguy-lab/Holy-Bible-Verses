@@ -26,10 +26,10 @@ body {
 h1 {
   text-align: center;
   color: rgb(9, 84, 214);
-  letter-spacing: 15px;
+  letter-spacing: 17px;
   text-shadow: rgba(251, 251, 251, 0.896) 1px 2px;
-  margin: 15px 100px 60px 100px;
-  font-size: 3rem;
+  margin: 30px 100px 60px 100px;
+  font-size: 3.5rem;
   border-bottom: 3px rgba(9, 84, 214, 0.275) solid;
   display: inline;
   // background-color: aquamarine;
