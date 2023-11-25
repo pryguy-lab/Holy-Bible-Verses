@@ -75,10 +75,10 @@ h1 {
   font-size: 3rem;
   padding-top: 0;
   padding-bottom: 0;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 16px;
+  padding-right: 16px;
   letter-spacing: 3px;
-  line-height: 1.8em;
+  line-height: 1.4em;
   font-weight: 800;
   text-shadow: rgb(245, 241, 241) 1px 1px;
   margin: 0;
