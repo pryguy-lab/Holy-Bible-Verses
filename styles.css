@@ -25,7 +25,7 @@ body {
 
 h1 {
   text-align: center;
-  color: rgb(9, 84, 214);
+  color: rgb(39, 18, 160);
   letter-spacing: 17px;
   text-shadow: rgba(251, 251, 251, 0.896) 1px 2px;
   margin: 30px 100px 20px 100px;
@@ -71,7 +71,7 @@ h1 {
 }
 
 .paragraph {
-  color: rgb(33, 9, 215);
+  color: rgb(8, 4, 222);
   font-size: 3rem;
   padding-top: 0;
   padding-bottom: 0;
@@ -110,9 +110,12 @@ p::first-letter {
 }
 
 .book {
-  color: rgb(19, 6, 120);
+  color: rgb(31, 13, 127);
   font-size: 2rem;
-  text-shadow: rgb(245, 241, 241) 1px 1px;
+  //text-shadow: rgb(245, 241, 241) 1px 1px;
+  text-shadow: rgba(251, 251, 251, 0.896) 1px 2px;
+  letter-spacing: .1em;
+  font-weight: bold;
 }
 
 .book::first-letter {
@@ -124,6 +127,7 @@ p::first-letter {
 
 .verses {
   font-size: 1em;
+  letter-spacing: .05em;
 }
 
 .version {
