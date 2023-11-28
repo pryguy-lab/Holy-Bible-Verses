@@ -16,13 +16,12 @@ body {
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 786px) {
   html,body {
     border-radius: 15%;
-  }
-  body{
     margin: 0;
   }
+ 
 }
 
 
@@ -41,8 +40,8 @@ h1 {
 @media screen and (max-width: 500px) {
   h1 {
     font-size: 2rem;
-    margin: 25px 20px 25px 20px;
-    letter-spacing: 5px;
+    margin: 25px 20px 12px 20px;
+    letter-spacing: 12px;
   }
   h2{
     margin: 0;
@@ -53,7 +52,7 @@ h1 {
 
 .text-container {
   border: solid 5px rgba(21, 7, 228, 0.748);
-  max-width: 98%;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -87,14 +86,14 @@ h1 {
   padding-left: 30px;
   padding-right: 30px;
   letter-spacing: 8px;
-  line-height: 1.8em;
+  line-height: 1.5em;
   font-weight: 800;
   text-shadow: rgb(245, 241, 241) 1px 1px;
   margin: 0;
   //  background-color: aqua;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 786px) {
   .paragraph {
     font-size: 2.5rem;
     letter-spacing: 2px;
