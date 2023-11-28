@@ -19,6 +19,7 @@ body {
 @media screen and (max-width: 500px) {
   html,body {
     border-radius: 15%;
+    margin: ;
   }
 }
 
@@ -41,11 +42,12 @@ h1 {
     margin: 25px 20px 25px 20px;
     letter-spacing: 5px;
   }
-  
+  h2{
+    margin: 0;
+  }
+ 
 }
-h2{
-  margin: 20px 100px;
-}
+
 
 .text-container {
   border: solid 5px rgba(21, 7, 228, 0.748);
@@ -80,8 +82,8 @@ h2{
   font-size: 3rem;
   padding-top: 0;
   padding-bottom: 0;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
   letter-spacing: 8px;
   line-height: 1.8em;
   font-weight: 800;
@@ -168,5 +170,6 @@ p::first-letter {
 }
 h2{
   border-bottom: 3px rgba(9, 84, 214, 0.24) solid;
+  margin: 30px 100px;
  
 }
