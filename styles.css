@@ -37,11 +37,11 @@ h1 {
   display: inline;
   // background-color: aquamarine;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 786px) {
   h1 {
     font-size: 2rem;
     margin: 25px 20px 12px 20px;
-    letter-spacing: 12px;
+    letter-spacing: 8px;
   }
   h2{
     margin: 0;
