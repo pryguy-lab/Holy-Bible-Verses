@@ -16,7 +16,7 @@ body {
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 900px) {
   html,body {
     border-radius: 15%;
     margin: 0;
@@ -37,7 +37,7 @@ h1 {
   display: inline;
   // background-color: aquamarine;
 }
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 900px) {
   h1 {
     font-size: 2.2rem;
     margin: 25px 20px 12px 20px;
@@ -64,7 +64,7 @@ h1 {
 
 }
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 900px) {
   .text-container {
     padding: 8px;
     border-radius: 15%;
@@ -93,7 +93,7 @@ h1 {
   //  background-color: aqua;
 }
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 900px) {
   .paragraph {
     font-size: 2.5rem;
     letter-spacing: 2px;
