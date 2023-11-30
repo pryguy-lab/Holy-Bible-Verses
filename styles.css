@@ -50,7 +50,7 @@ h1 {
 }
 @media screen and (max-width: 500px) {
   h1 {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
     
   }
   
@@ -127,7 +127,7 @@ p::first-letter {
 
 .book {
   color: rgb(31, 13, 127);
-  font-size: 2rem;
+  font-size: 1.8rem;
   //text-shadow: rgb(245, 241, 241) 1px 1px;
   text-shadow: rgba(251, 251, 251, 0.896) 1px 2px;
   letter-spacing: .1em;
@@ -147,7 +147,7 @@ p::first-letter {
 }
 
 .version {
-  font-size: 0.5em;
+  font-size: 0.6em;
   font-weight: bold;
 }
 
