@@ -15,7 +15,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+ .header-right{
+  display: flex;
+  text-align: center;
+  flex-direction: row-reverse;
+  //padding-top: 1px;
+}
 @media screen and (max-width: 900px) {
   html,body {
     border-radius: 15%;
@@ -23,6 +28,19 @@ body {
   }
  
 }
+nav{
+  display: flex;
+  justify-content: space-between;
+  justify-content: right;
+}
+
+  nav a{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 20px;
+
+  }
 
 
 h1 {
@@ -67,9 +85,9 @@ h1 {
   flex-direction: column;
   border-radius: 25%;
   position: relative;
+  padding: 0px 40px;
    // background-color: brown;
-    padding: 0px 40px;
-
+   
 }
 
 @media screen and (max-width: 900px) {
