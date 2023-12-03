@@ -32,8 +32,10 @@ nav{
 
 
 nav a{
-  color: rgb(226, 216, 216);
+  color: rgb(203, 237, 241);
   font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 3px;
   text-decoration: none;
   padding: 0 20px;
   border: rgba(0, 255, 255, 0.542) 2px solid;
