@@ -27,13 +27,46 @@ body {
 nav{
   display: flex;
   justify-content: space-between;
-  justify-content: right;
+  //justify-content: right;
   //margin-right: 35px;
+}
+.nav-left img{
+  width: 50px;
+  height: 50px;
+  opacity: .5;
+  border: rgba(0, 0, 0, 0.125) 2px solid;
+  border-radius: 7px;
+  background-color: aqua;
+
+}
+.nav-left{
+  display: flex;
+  align-items: flex-end;
+}
+.nav-left img:hover{
+  opacity: 1;
+  
+}
+nav a{
+  color: rgb(226, 216, 216);
+  font-size: 24px;
+  text-decoration: none;
+  padding: 0 20px;
+  border: rgba(0, 255, 255, 0.542) 2px solid;
+  //border: rgba(0, 0, 0, 0.125) 2px solid;
+  text-shadow: rgba(15, 1, 1, 0.896) 1px 2px;
+  border-radius: 7px;
+  margin: 5px;
+  //background-color: aqua;
+
 }
 @media screen and (max-width:900px){
   nav{
     display: flex;
     justify-content: center;
+   }
+   nav a{
+    padding: 0 10px;
    }
 
 }
@@ -45,17 +78,7 @@ nav ul{
 nav ul li{
   list-style: none;
 }
-  nav a{
-    color: rgb(226, 216, 216);
-    font-size: 24px;
-    text-decoration: none;
-    padding: 0 20px;
-    border: rgba(0, 0, 0, 0.125) 2px solid;
-    text-shadow: rgba(15, 1, 1, 0.896) 1px 2px;
-    border-radius: 7px;
-    margin: 5px;
-
-  }
+  
 nav a:hover{
   color: rgb(7, 7, 7);
   text-shadow: none;
@@ -77,7 +100,7 @@ h1 {
 @media screen and (max-width: 900px) {
   h1 {
     font-size: 3.2rem;
-    margin: 25px 20px 12px 20px;
+    margin: 10px 20px 12px 20px;
     letter-spacing: 7px;
   }
   h2{
