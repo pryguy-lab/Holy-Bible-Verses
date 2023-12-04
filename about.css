@@ -16,7 +16,7 @@ nav{
 nav a{
     text-decoration: none;
     border: black 2px solid;
-    padding: 2px 7px;
+    padding: 4px 7px;
     border-radius: 10px;
     color: aliceblue;
     margin: 0;
@@ -51,7 +51,7 @@ h1{
     padding: 10px;
     background-color: rgba(240, 255, 255, 0.092);
     text-align: center;
-    margin: 0 10px;
+    margin: 5px 10px;
 }
 @media screen and (max-width:900px){
     nav{
