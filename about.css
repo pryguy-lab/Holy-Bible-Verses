@@ -1,5 +1,5 @@
 html, body{
-    font-family: cursive;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     text-align: center;
     background-size:cover;
@@ -41,13 +41,17 @@ h1{
 .container{
     display: flex;
     justify-content: space-around;
+   
     
 }
 .container p{
     max-width: 600px;
     font-size: 24px ;
-    color: rgb(132, 233, 233);
+    color: rgb(9, 19, 19);
     padding: 10px;
+    background-color: rgba(240, 255, 255, 0.092);
+    text-align: center;
+    margin: 0 10px;
 }
 @media screen and (max-width:900px){
     nav{
