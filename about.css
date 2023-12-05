@@ -6,12 +6,11 @@ html, body{
     background-repeat: no-repeat;
     text-align: center;
     height: 100%;
-    width: 100%;
 }
 nav{
     display: flex;
     justify-content: flex-end;
-    margin-right: 50px;
+    //margin-right: 50px;
 }
 nav a{
     text-decoration: none;
@@ -45,13 +44,15 @@ h1{
     
 }
 .container p{
-    max-width: 600px;
+    width:65vw;
     font-size: 24px ;
     color: rgb(9, 19, 19);
     padding: 10px;
     background-color: rgba(240, 255, 255, 0.092);
     text-align: center;
-    margin: 5px 10px;
+    // margin: 5px auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media screen and (max-width:900px){
     nav{
@@ -61,4 +62,9 @@ h1{
      }
      
   
+  }
+  @media screen and (max-width:500px){
+    .container p{
+        width:90vw;
+    }
   }
