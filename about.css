@@ -31,6 +31,7 @@ nav ul{
 }
 
 h1{
+    font-size: 3.5rem;
     color: rgb(21, 41, 42);
     text-shadow: 1px 2px aliceblue;
     padding: 0;
@@ -45,7 +46,8 @@ h1{
 }
 .container p{
     width:65vw;
-    font-size: 24px ;
+    //font-size: 24px ;
+    font-size: 1.5rem;
     color: rgb(9, 19, 19);
     padding: 10px;
     background-color: rgba(240, 255, 255, 0.092);

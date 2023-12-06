@@ -33,7 +33,8 @@ nav{
 
 nav a{
   color: rgb(0, 0, 0);
-  font-size: 24px;
+ // font-size: 24px;
+  font-size: 1.5rem;
   font-weight:bold;
   letter-spacing: 2px;
   text-decoration: none;
