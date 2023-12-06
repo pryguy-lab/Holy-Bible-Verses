@@ -7,7 +7,7 @@ body {
   margin:10px 20px 10px 20px;
   background-color: rgb(36, 55, 88);
   border: rgba(251, 251, 251, 0.896) 2px solid;
-  border-radius: 10px;
+  //border-radius: 10px;
   padding-bottom: 5px;
   padding-top: 5px;
   padding-right: 5px;
@@ -18,7 +18,7 @@ body {
 
 @media screen and (max-width: 900px) {
   html,body {
-    border-radius: 15%;
+    //border-radius: 15%;
     margin: 0;
   }
  
@@ -38,7 +38,7 @@ nav a{
   letter-spacing: 2px;
   text-decoration: none;
   padding: 0 20px;
-  border: rgba(13, 23, 41, 0.507) 3px solid;
+  border: rgba(13, 23, 41, 0.21) 3px solid;
   //text-shadow: rgba(247, 243, 243, 0.896) 1px 2px;
   border-radius: 7px;
   margin: 5px;
@@ -120,7 +120,7 @@ h1 {
 @media screen and (max-width: 900px) {
   .text-container {
     padding: 8px;
-    border-radius: 15%;
+    //border-radius: 15%;
   }
 }
 
@@ -172,7 +172,7 @@ p::first-letter {
 
 .book {
   color: rgb(31, 13, 127);
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   //text-shadow: rgb(245, 241, 241) 1px 1px;
   text-shadow: rgba(251, 251, 251, 0.896) 1px 2px;
   letter-spacing: .1em;
