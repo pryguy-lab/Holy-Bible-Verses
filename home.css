@@ -39,7 +39,7 @@ nav a{
   text-decoration: none;
   padding: 0 20px;
   border: rgba(13, 23, 41, 0.21) 3px solid;
-  //text-shadow: rgba(247, 243, 243, 0.896) 1px 2px;
+  text-shadow: rgba(247, 243, 243, 0.896) .5px 1px;
   border-radius: 7px;
   margin: 5px;
   //background-color: aqua;
