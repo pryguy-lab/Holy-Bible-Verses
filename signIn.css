@@ -1,0 +1,29 @@
+body,html{
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    border: black 2px solid;
+    padding: 4px 7px;
+    border-radius: 10px;
+    color: aliceblue;
+    margin: 0;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+nav ul li{
+    list-style: none;
+    text-shadow: 2px 2px rgb(21, 41, 42);
+}
+nav ul{
+    padding: 10px;
+}
