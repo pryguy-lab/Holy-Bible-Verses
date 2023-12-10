@@ -18,7 +18,6 @@ h1{
 nav{
     display: flex;
     justify-content: flex-end;
-    //margin-right: 50px;
 }
 nav a{
     text-decoration: none;
@@ -27,13 +26,14 @@ nav a{
     border-radius: 10px;
     color: rgb(253, 253, 253);
     margin: 0;
-    font-size: 1rem;
-    letter-spacing: 2px;
-    background-color: rgba(0, 0, 0, 0.366);
+    font-size: 1.2rem;
+    //letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0.574);
+    font-weight: bold;
 }
 nav ul li{
     list-style: none;
-    text-shadow: 2px 2px rgb(21, 41, 42);
+    //text-shadow: 2px 2px rgb(8, 2, 121);
 }
 nav ul{
     padding: 10px;
