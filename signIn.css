@@ -1,10 +1,19 @@
 body,html{
     background-size:cover;
     background-repeat: no-repeat;
+    height:100vh ;
+    display: flex;
+    flex-direction: column;
+    
 }
 h1{
     text-align: center;
-    color: bisque;
+    color: rgb(63, 62, 60);
+    background-color: rgba(240, 229, 112, 0.544);
+    display: inline;
+    margin: 0 auto;
+    padding: 0 20px;
+    border-radius: 10px;
 }
 nav{
     display: flex;
@@ -16,10 +25,11 @@ nav a{
     border: black 2px solid;
     padding: 4px 7px;
     border-radius: 10px;
-    color: aliceblue;
+    color: rgb(253, 253, 253);
     margin: 0;
-    font-size: 24px;
+    font-size: 1rem;
     letter-spacing: 2px;
+    background-color: rgba(0, 0, 0, 0.366);
 }
 nav ul li{
     list-style: none;
