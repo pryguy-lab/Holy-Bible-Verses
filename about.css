@@ -46,15 +46,25 @@ h1{
 }
 .container p{
     width:65vw;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: rgb(9, 19, 19);
-    padding: 10px;
+    padding: 0 15px;
     background-color: rgba(240, 255, 255, 0.092);
     text-align: center;
-    // margin: 5px auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
+hr{
+    height: 10px  ;
+    width: 65vw;
+    background-color: rgb(45, 58, 117);
+    border-style: none;
+    opacity: .2;
+}
+.verse{
+    font-size: 1.1rem;
+    color: rgb(5, 10, 13);
+}
+
 @media screen and (max-width:900px){
     nav{
       display: flex;
