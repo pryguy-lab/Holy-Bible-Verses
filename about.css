@@ -17,10 +17,11 @@ nav{
 nav a{
     text-decoration: none;
     border: black 2px solid;
-    padding: 2px 7px;
-    border-radius: 10px;
+    padding: 4px 7px;
+    border-radius: 13px;
     color: aliceblue;
     margin: 0;
+    font-size: 1.1rem;
     
 }
 nav ul li{
@@ -38,7 +39,7 @@ h1{
     text-shadow: 1px 2px aliceblue;
     padding: 0;
     margin: 0 0 14px 0;
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 
 .container{
@@ -51,9 +52,13 @@ h1{
 .container p{
     width:65vw;
     font-size: 1.3rem;
-    color: rgb(9, 19, 19);
-    padding: 0 15px;
-    background-color: rgba(240, 255, 255, 0.092);
+    font-weight: 700;
+    //color: rgb(9, 19, 19);
+    color: rgb(139, 229, 243);
+    text-shadow: px 1px 1px rgba(249, 249, 253, 0.541);
+    padding: 2px 15px;
+    //background-color: rgba(240, 255, 255, 0.092);
+    background-color: rgba(31, 34, 34, 0.111);
     text-align: center;
     justify-content: center;
     margin: 0 auto;
@@ -81,6 +86,7 @@ hr{
   }
   @media screen and (max-width:500px){
     .container p{
-        width:90vw;
+        width:97vw;
+        padding: 3px 0px;
     }
   }
