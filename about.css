@@ -68,8 +68,8 @@ h1{
     //font-size: 1.2rem;
     font-size: 1.9rem;
     font-weight: 200;
-    color: rgb(139, 229, 243);
-    //color: rgb(98, 240, 250);    
+    //color: rgb(139, 229, 243);
+    color: rgb(180,240,253);
     text-shadow: 4px 4px 4px rgba(18,18,48, 0.541);
     padding: 2px 15px;
     margin: 0 auto;
@@ -124,14 +124,16 @@ hr{
       display: flex;
       justify-content: space-around;
       margin: 5px 0 5px 0;
-     }
-   
-     
-  
+     } 
+       
   }
   @media screen and (max-width:500px){
     .container p{
         width:91vw;
         padding: 3px 0px;
+        font-size: 1.2rem;
+    }
+    .container p a{
+        font-size: 1.5rem;
     }
   }
