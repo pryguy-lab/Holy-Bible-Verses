@@ -4,9 +4,8 @@ html, body{
     text-align: center;
     background-size:cover;
     background-repeat: no-repeat;
-    height: 100%;
-    margin: 0 auto;
-  
+    height: 100vh;
+    margin: 0 auto;  
 
 }
 nav{
@@ -16,7 +15,7 @@ nav{
 }
 nav a{
     text-decoration: none;
-    border: black 2px solid;
+    border: rgb(60,212,205) 3px solid;
     padding: 4px 7px;
     border-radius: 13px;
     color: aliceblue;
@@ -37,15 +36,17 @@ nav ul{
 link{
     color: #fc0b2a;
     text-decoration: underline;
-    text-shadow: 3px -4px 5px #f
+    text-shadow: 3px -4px 5px blue;
 }
 
 h1{
-    color: rgb(21, 41, 42);
-    text-shadow: 1px 2px aliceblue;
+    //color: rgb(21, 41, 42);
+    color: #6c27b6;
+    text-shadow: 1px 2px rgb(22, 188, 158);
     padding: 0;
     margin: 0 0 14px 0;
     font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
 }
 
 .container{
@@ -56,18 +57,21 @@ h1{
     
 }
 .container p{
-    width:65vw;
     font-size: 1.3rem;
     font-weight: 700;
-    //color: rgb(9, 19, 19);
     color: rgb(139, 229, 243);
     text-shadow: px 1px 1px rgba(249, 249, 253, 0.541);
     padding: 2px 15px;
-    //background-color: rgba(240, 255, 255, 0.092);
-    background-color: rgba(31, 34, 34, 0.111);
-    text-align: center;
-    justify-content: center;
     margin: 0 auto;
+}
+.container .top-section ,.mid-section,.bottom-section{
+    padding: 10px 0;
+    background-color: rgba(31, 34, 34, 0.111);
+    width:65vw;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: inline-block;
+    
 }
 .container p a{
     color: #031d9f;
@@ -84,8 +88,17 @@ hr{
 }
 .verse{
     font-size: 1.1rem;
-    color: rgb(5, 10, 13);
-x}
+    color: rgb(0, 0, 0);
+    text-shadow: 2px -2px 5px rgb(108, 108, 152);
+    background-color: rgba(160, 167, 167, 0.558);
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+@media screen and (max-width:900px){
+.container .top-section ,.mid-section,.bottom-section{
+   width: 100vw;    
+}
+}
 
 @media screen and (max-width:900px){
     nav{
