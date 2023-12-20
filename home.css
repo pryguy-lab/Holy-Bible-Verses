@@ -169,7 +169,6 @@ p::first-letter {
 .book {
   color: rgb(31, 13, 127);
   font-size: 1.6rem;
-  //text-shadow: rgb(245, 241, 241) 1px 1px;
   text-shadow: rgba(251, 251, 251, 0.896) 1px 2px;
   letter-spacing: .1em;
   font-weight: bold;
@@ -218,7 +217,7 @@ p::first-letter {
   border-radius: 10%;
   font-size: 1rem;
 }
-h2{
+hr{
   border-bottom: 3px rgba(9, 84, 214, 0.24) solid;
   margin: 30px 100px;
  
