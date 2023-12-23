@@ -198,26 +198,7 @@ p::first-letter {
   // background-color: rgba(49, 136, 136, 0.627);
 }
 
-// .fb-btn {
-//   background-color: rgba(48, 22, 195, 0.5);
-//   color: antiquewhite;
-//   margin-top: 10px;
-//   margin-bottom: 20px;
-//   padding: 5px;
-//   border-radius: 10%;
-//   font-size: 1rem;
-//   height:100vh ;
-// }
 
-// .new-verse-btn {
-//   background-color: rgba(48, 22, 195, 0.5);
-//   color: antiquewhite;
-//   margin-top: 10px;
-//   margin-bottom: 20px;
-//   padding: 5px;
-//   border-radius: 10%;
-//   font-size: 1rem;
-// }
 hr{
   border-bottom: 3px rgba(9, 84, 214, 0.24) solid;
   margin: 30px 100px;
