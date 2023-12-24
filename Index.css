@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Felipa&display=swap");
 
 html,
 body {
@@ -51,6 +50,8 @@ nav a{
    }
    nav a{
     padding: 0 5px;
+    font-size: 1.5rem;
+    margin: 0;
    }
 
 }
@@ -71,7 +72,7 @@ nav a:hover{
 h1 {
   text-align: center;
   color: rgb(39, 18, 160);
-  letter-spacing: 17px;
+  letter-spacing: 14px;
   text-shadow: rgba(251, 251, 251, 0.896) 1px 2px;
   margin: 0px 100px 20px 100px;
   padding: 10px;
@@ -93,7 +94,8 @@ h1 {
 }
 @media screen and (max-width: 500px) {
   h1 {
-    font-size: 2.6rem;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
     
   }
   
@@ -203,4 +205,8 @@ hr{
   border-bottom: 3px rgba(9, 84, 214, 0.24) solid;
   margin: 30px 100px;
  
+}
+.newlan{
+  hr{
+    font-size: 10rem; }
 }
