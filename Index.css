@@ -24,46 +24,64 @@ body {
 nav{
   display: flex;
   justify-content: space-between;
-  
+  margin-top: 15px;
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
 nav a{
   color: rgb(0, 0, 0);
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight:bold;
-  //letter-spacing: 2px;
+  letter-spacing: 2px;
   text-decoration: none;
-  padding: 0 20px;
+  padding: 0px 10px;
+  margin: 0px 5px;
   border: rgba(13, 23, 41, 0.21) 3px solid;
   text-shadow: rgba(247, 243, 243, 0.896) .5px 1px;
   border-radius: 7px;
   box-shadow: 2px 2px 10px 2px rgba(3, 3, 20, 0.2);
-  margin: 5px;
+  
   //background-color: aqua;
 
 }
-@media screen and (max-width:900px){
-  nav{
-    display: flex;
-    justify-content: space-around;
-   }
-   nav a{
-    padding: 3px 5px;
-    font-size: 1.3rem;
-    margin: 0;
+
+  
+   .hamburger{
+    display: none;
    }
 
-}
-// @media screen and (max-width:768px){
-// nav{justify-content: space-around;
-// }
-// }
-nav ul{
-  padding: 0;
-  display: flex;
-  text-align: center;
-}
+   @media screen and (max-width: 768px){
+    .hamburger{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+  nav{
+    justify-content: flex-end;
+    margin: 0;
+  }
+   .nav-left,.nav-right{
+    display: none;
+  }
+    
+
+   }
+
+
+
+
 nav ul li{
   list-style: none;
 }
@@ -72,14 +90,23 @@ nav a:hover{
   color: rgb(7, 7, 7);
   text-shadow: none;
 }
+ 
+.hamburger .bar{
+  background-color: black;
+  height: 4px;
+  width: 36px;
+  border-radius: 10px;
+  margin: 3px;
+
+}
 
 h1 {
   text-align: center;
   color: rgb(39, 18, 160);
-  letter-spacing: 14px;
+  letter-spacing: 10px;
   text-shadow: rgba(251, 251, 251, 0.896) 1px 2px;
   margin: 0px 100px 20px 100px;
-  padding: 10px;
+  padding: 15px 0;
   font-size: 3.5rem;
   border-bottom: 3px rgba(9, 84, 214, 0.275) solid;
   display: inline;
@@ -87,24 +114,24 @@ h1 {
 }
 @media screen and (max-width: 900px) {
   h1 {
-    font-size: 3.2rem;
-    margin: 10px 20px 12px 20px;
-    letter-spacing: 7px;
+    font-size: 2.8rem;
+    margin: 0px 7px 20px 7px;
+    letter-spacing: 6px;
   }
   h2{
     margin: 0;
   }
  
 }
-@media screen and (max-width: 500px) {
-  h1 {
-    font-size: 2.3rem;
-    letter-spacing: 1px;
+// @media screen and (max-width: 500px) {
+//   h1 {
+//     font-size: 2.3rem;
+//     letter-spacing: 1px;
     
-  }
+//   }
   
  
-}
+// }
 
 
 .text-container {
@@ -140,7 +167,7 @@ h1 {
   padding-bottom: 0;
   padding-left: 30px;
   padding-right: 30px;
-  letter-spacing: 8px;
+  letter-spacing: 6px;
   line-height: 1.5em;
   font-weight: 800;
   text-shadow: rgb(245, 241, 241) 1px 1px;
