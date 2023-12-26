@@ -12,7 +12,9 @@ body {
   padding-left: 5px;
   background-size: cover;
   background-repeat: no-repeat;
+  //height: 100vh;
 }
+
 
 @media screen and (max-width: 900px) {
   html,body {
@@ -35,7 +37,7 @@ nav ul{
 }
 
 
-nav a{
+.nav-left a, .nav-right a{
   color: rgb(0, 0, 0);
   font-size: 2rem;
   font-weight:bold;
@@ -51,6 +53,25 @@ nav a{
   //background-color: aqua;
 
 }
+.mobileNav{
+  width: 80px;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.mobileNav a{
+  font-size: 1rem;
+  font-weight:bold;
+  letter-spacing: 2px;
+  text-decoration: none;
+  margin: 50px 0;
+
+}
+
 
   
    .hamburger{
@@ -234,18 +255,18 @@ hr{
   margin: 30px 100px;
  
 }
-.newlan{
-  hr{
-    font-size: 10rem; }
-}
+// .newlan{
+//   hr{
+//     font-size: 10rem; }
+// }
 .animateBar1{
-  animation: flipBar1 1s forwards;
+  animation: flipBar1 .25s forwards;
 }
 .animateBar2{
-  animation: fadeBar2 1s forwards;
+  animation: fadeBar2 .5s forwards;
 }
 .animateBar3{
-  animation: flipBar3 1s forwards;
+  animation: flipBar3 .25s forwards;
 
 }
 
