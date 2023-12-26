@@ -57,25 +57,24 @@ nav a{
     display: none;
    }
 
-   @media screen and (max-width: 768px){
+   @media screen and (max-width: 700px){
     .hamburger{
     height: 30px;
     width: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-  
+    justify-content: center; 
   }
 
   nav{
     justify-content: flex-end;
     margin: 0;
+      
   }
    .nav-left,.nav-right{
     display: none;
-  }
-    
+  }     
 
    }
 
@@ -91,7 +90,7 @@ nav a:hover{
   text-shadow: none;
 }
  
-.hamburger .bar{
+ .bar1,.bar2,.bar3{
   background-color: black;
   height: 4px;
   width: 30px;
@@ -115,8 +114,8 @@ h1 {
 @media screen and (max-width: 900px) {
   h1 {
     font-size: 2.8rem;
-    margin: 0px 7px 20px 7px;
-    letter-spacing: 6px;
+    margin: 15px 7px 20px 7px;
+    letter-spacing: 5px;
     padding: 0;
   }
   h2{
@@ -124,15 +123,12 @@ h1 {
   }
  
 }
-// @media screen and (max-width: 500px) {
-//   h1 {
-//     font-size: 2.3rem;
-//     letter-spacing: 1px;
-    
-//   }
-  
- 
-// }
+@media screen and (max-width: 700px){
+  h1{
+    margin-top: 0;
+    padding: 0;
+  }
+}
 
 
 .text-container {
@@ -241,4 +237,50 @@ hr{
 .newlan{
   hr{
     font-size: 10rem; }
+}
+.animateBar1{
+  animation: flipBar1 1s forwards;
+}
+.animateBar2{
+  animation: fadeBar2 1s forwards;
+}
+.animateBar3{
+  animation: flipBar3 1s forwards;
+
+}
+
+@keyframes fadeBar2 {
+  from {
+    transform: scalex(1);
+    opacity: 1;
+  }
+   to{
+    transform: scalex(0);
+    opacity: 0;
+
+
+  }
+  
+}
+@keyframes flipBar1 {
+  from {
+    transform: rotate(0) ;
+    
+  }
+   to{
+    transform: rotate(45deg) translate(4px, 10px);
+   
+  }
+  
+}
+@keyframes flipBar3 {
+  from {
+    transform: rotate(0);
+    
+  }
+   to{
+    transform: rotate(-45deg) translate(4px, -10px);
+
+  }
+  
 }
