@@ -1,9 +1,8 @@
 
-html,
-body {
+
+html,body {
   font-family: "Felipa", cursive;
   box-sizing: border-box;
-  margin:10px 20px 10px 20px;
   background-color: rgb(36, 55, 88);
   border: rgba(251, 251, 251, 0.896) 2px solid;
   padding-bottom: 5px;
@@ -15,26 +14,13 @@ body {
 }
 
 
-@media screen and (max-width: 900px) {
-  html,body {
-    margin: 0;
-  }
- 
-}
+
 
 nav{
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
 }
-nav ul{
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 
 .nav-left a, .nav-right a{
   color: rgb(0, 0, 0);
@@ -61,7 +47,7 @@ nav ul{
   justify-content: center;
   align-items: center;
   display: none;
-  z-index: 3;
+  z-index: 2;
 }
 .mobileNav a{
   font-size: 1rem;
@@ -99,12 +85,6 @@ nav ul{
 
    }
 
-
-
-
-nav ul li{
-  list-style: none;
-}
   
 nav a:hover{
   color: rgb(7, 7, 7);
@@ -129,7 +109,6 @@ h1 {
   padding: 15px 0;
   font-size: 3.5rem;
   border-bottom: 3px rgba(9, 84, 214, 0.275) solid;
-  display: inline;
   // background-color: aquamarine;
 }
 @media screen and (max-width: 900px) {
@@ -154,14 +133,10 @@ h1 {
 
 .text-container {
   border: solid 5px rgba(21, 7, 228, 0.748);
-  max-width: 100%;
   margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: column;
-  position: relative;
+  margin-right: auto;   
   padding: 0px 40px;
-   // background-color: brown;
+  // background-color: brown;
    
 }
 
