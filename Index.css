@@ -1,5 +1,3 @@
-
-
 html,body {
   font-family: "Felipa", cursive;
   box-sizing: border-box;
@@ -12,9 +10,6 @@ html,body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-
-
 
 nav{
   display: flex;
@@ -39,26 +34,39 @@ nav{
 
 }
 .mobileNav{
-  width: 80px;
-  background-color: rgb(255, 255, 255);
-  height: 100vh;
+  width: 90px;
+  background-color: rgb(114, 168, 226);
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  display: none;
+  position: fixed;
   z-index: 2;
+  //right: -160px;
+  right: -160px;
+  margin-top: 10px;
+  border: 2px solid white;
+  border-radius: 20px;
+  transition: transform 0.5s;
 }
 .mobileNav a{
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight:bold;
-  letter-spacing: 2px;
   text-decoration: none;
-  margin: 50px 0;
+  margin: 20px 0;
+  color: black;
+  padding: 0 10px;
+  
+}
+.mobileNav a:hover{
+  text-decoration: underline;
+  color: rgb(223, 47, 12);
+}
+.openDrawer{
+  transform: translateX(-180px);
 
 }
-
-
   
    .hamburger{
     display: none;
