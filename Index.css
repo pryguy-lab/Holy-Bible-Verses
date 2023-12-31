@@ -17,9 +17,9 @@ nav{
   margin-top: 15px;
 }
 
-.nav-left a, .nav-right a{
+.nav-left a, .nav-right a,.mobileNav a{
   color: rgb(0, 0, 0);
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight:bold;
   letter-spacing: 2px;
   text-decoration: none;
@@ -33,36 +33,26 @@ nav{
   //background-color: aqua;
 
 }
+.mobileNav a{
+  margin: 10px;
+}
 .mobileNav{
-  width: 100px;
+  width: 150px;
   background-color: rgb(114, 168, 226);
-  height: 50vh;
-  display: flex;
+  height: 40vh;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: fixed;
-  z-index: 2;
-  //right: -160px;
+  z-index: 2;  
   right: -160px;
   margin-top: 10px;
   border: 2px solid white;
   border-radius: 20px;
   transition: transform 0.5s;
 }
-.mobileNav a{
-  font-size: 1.5rem;
-  font-weight:bold;
-  text-decoration: none;
-  margin: 20px 0;
-  color: black;
-  padding: 0 10px;
-  
-}
-.mobileNav a:hover{
-  text-decoration: underline;
-  color: rgb(223, 47, 12);
-}
+
 .openDrawer{
   transform: translateX(-180px);
 
@@ -80,7 +70,7 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-    margin-right: 16px;
+    margin-right: 36px;
   }
 
   nav{
@@ -90,7 +80,10 @@ nav{
   }
    .nav-left,.nav-right{
     display: none;
-  }     
+  } 
+  .mobileNav {
+    display: flex;
+  }   
 
    }
 
@@ -122,9 +115,9 @@ h1 {
 }
 @media screen and (max-width: 900px) {
   h1 {
-    font-size: 2.8rem;
+    font-size: 2.3rem;
     margin: 15px 7px 20px 7px;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     padding: 0;
   }
   h2{
@@ -134,7 +127,7 @@ h1 {
 }
 @media screen and (max-width: 700px){
   h1{
-    margin-top: 0;
+    margin-top: 12px;
     padding: 0;
   }
 }
