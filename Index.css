@@ -37,9 +37,9 @@ nav{
   margin: 10px;
 }
 .mobileNav{
-  width: 150px;
+  width: 130px;
   background-color: rgb(114, 168, 226);
-  height: 40vh;
+  //height: 40vh;
   display: none;
   flex-direction: column;
   justify-content: center;
@@ -47,15 +47,25 @@ nav{
   position: fixed;
   z-index: 2;  
   right: -160px;
-  margin-top: 10px;
+  //margin-top: -60px;
+  top: 30px;
   border: 2px solid white;
   border-radius: 20px;
   transition: transform 0.5s;
 }
 
 .openDrawer{
-  transform: translateX(-180px);
+  transform: translateX(-190px);
 
+}
+.close{
+  transform: translateX(190px);
+}
+ .mobileNav .closeDrawer{
+  color: rgb(198, 27, 27);
+  font-size: 1.2rem;
+  border-radius: 50%;
+  //margin-left: 60px;
 }
   
    .hamburger{
@@ -70,7 +80,6 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-    margin-right: 36px;
   }
 
   nav{
@@ -115,9 +124,9 @@ h1 {
 }
 @media screen and (max-width: 900px) {
   h1 {
-    font-size: 2.3rem;
+    font-size: 2.8rem;
     margin: 15px 7px 20px 7px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     padding: 0;
   }
   h2{
@@ -127,8 +136,7 @@ h1 {
 }
 @media screen and (max-width: 700px){
   h1{
-    margin-top: 12px;
-    padding: 0;
+    margin-top: 0px;
   }
 }
 
@@ -232,19 +240,38 @@ hr{
   margin: 30px 100px;
  
 }
-// .newlan{
-//   hr{
-//     font-size: 10rem; }
-// }
+
 .animateBar1{
-  animation: flipBar1 .25s forwards;
+  animation: fadeBar1 .25s forwards;
 }
 .animateBar2{
   animation: fadeBar2 .5s forwards;
 }
 .animateBar3{
-  animation: flipBar3 .25s forwards;
+  animation: fadeBar3 .25s forwards;
 
+}
+.reAnimateBar1{
+  animation: bringBar1 .25s forwards;
+}
+.reAnimateBar2{
+  animation: bringBar2 .5s forwards;
+}
+.reAnimateBar3{
+  animation: bringBar3 .25s forwards;
+
+}
+@keyframes fadeBar1 {
+  from {
+    transform: scalex(1);
+    opacity: 1;
+  }
+   to{
+    transform: scalex(0);
+    opacity: 0;
+
+
+  }
 }
 
 @keyframes fadeBar2 {
@@ -260,25 +287,56 @@ hr{
   }
   
 }
-@keyframes flipBar1 {
+@keyframes fadeBar3 {
   from {
-    transform: rotate(0) ;
-    
+    transform: scalex(1);
+    opacity: 1;
   }
    to{
-    transform: rotate(45deg) translate(4px, 10px);
-   
-  }
-  
-}
-@keyframes flipBar3 {
-  from {
-    transform: rotate(0);
-    
-  }
-   to{
-    transform: rotate(-45deg) translate(4px, -10px);
+    transform: scalex(0);
+    opacity: 0;
+
 
   }
   
 }
+@keyframes bringBar1 {
+  from {
+    transform: scalex(0);
+    opacity: 0;
+  }
+   to{
+    transform: scalex(1);
+    opacity: 1;
+
+
+  }
+}
+
+@keyframes bringBar2 {
+  from {
+    transform: scalex(0);
+    opacity: 0;
+  }
+   to{
+    transform: scalex(1);
+    opacity: 1;
+
+
+  }
+  
+}
+@keyframes bringBar3 {
+  from {
+    transform: scalex(0);
+    opacity: 0;
+  }
+   to{
+    transform: scalex(1);
+    opacity: 1;
+
+
+  }
+  
+}
+
