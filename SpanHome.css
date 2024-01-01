@@ -238,10 +238,7 @@ html,body {
     margin: 30px 100px;
    
   }
-  // .newlan{
-  //   hr{
-  //     font-size: 10rem; }
-  // }
+  
   .animateBar1{
     animation: fadeBar1 .25s forwards;
   }
