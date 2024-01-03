@@ -7,16 +7,16 @@ html, body{
     height: 100vh;
     margin: 0 auto;  
 }
+header{
+    margin-top: 10px;
+}
 nav{
-    display: none;
-}
-.hamburger{
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin: 30px 34px 0 0;
-
+    justify-content: flex-end;
+    
 }
+
+
 
 nav a{
     text-decoration: none;
@@ -24,28 +24,34 @@ nav a{
     padding: 2px 5px;
     border-radius: 13px;
     color: aliceblue;
-    margin: 10px ;
-    font-size: 1.1rem;
+    margin: 5px ;
+    font-size: .8rem;
     box-shadow: 2px 2px 17px 7px rgba(0, 0, 0, 0.3);
     
 }
+.signIn{
+    margin-right: 45px;
+}
 .bar1,.bar2,.bar3{
-    background-color: rgba(60, 212, 204, 0.305);
-    height: 3px;
-    width: 35px;
+    background-color: rgb(60, 212, 204);
+    height: 2px;
+    width: 27px;
     border-radius: 10px;
     margin: 2px;
-    border: black 2px solid;
+    border: black 1px solid;
     
 }
-
-
-
-link{
-    color: #fc0b2a;
-    text-decoration: underline;
-    text-shadow: 3px -4px 5px blue;
+.hamburger{
+    display: none;
 }
+
+
+
+// link{
+//     color: #fc0b2a;
+//     text-decoration: underline;
+//     text-shadow: 3px -4px 5px blue;
+// }
 
 h1{
     //color: rgb(21, 41, 42);
@@ -68,8 +74,8 @@ h1{
     
 }
 .container p{
-    //font-size: 1.2rem;
-    font-size: 1.9rem;
+    font-size: 1.2rem;
+    //font-size: 1.9rem;
     font-weight: 200;
     //color: rgb(139, 229, 243);
     color: rgb(180,240,253);
@@ -124,16 +130,19 @@ hr{
 
 @media screen and (max-width:700px){
     nav{
-      display: flex;
-      justify-content: space-around;
-      margin: 5px 0 5px 0;
+      display: none;
      } 
      header{
         margin: 0;
      }
      .hamburger{
-        display: none;
-     }
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 9px 9px 0 0;
+    }
+
+}
        
   }
   @media screen and (max-width:500px){

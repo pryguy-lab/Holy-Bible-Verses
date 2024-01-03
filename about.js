@@ -1,5 +1,5 @@
 const hamburger = document.querySelector(".hamburger");
 
 hamburger.addEventListener("click", () => {
-  alert("helo");
+  alert("Home of future slideout nav bar");
 });
