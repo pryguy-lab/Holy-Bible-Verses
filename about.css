@@ -25,12 +25,12 @@ nav a{
     border-radius: 13px;
     color: aliceblue;
     margin: 5px ;
-    font-size: .8rem;
+    font-size: 1.1rem;
     box-shadow: 2px 2px 17px 7px rgba(0, 0, 0, 0.3);
     
 }
 .signIn{
-    margin-right: 45px;
+    margin-right: 30px;
 }
 .bar1,.bar2,.bar3{
     background-color: rgb(60, 212, 204);
