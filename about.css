@@ -44,6 +44,9 @@ nav a{
 .hamburger{
     display: none;
 }
+.mobileNav{
+    display: none;
+}
 
 
 
@@ -56,8 +59,8 @@ nav a{
 h1{
     //color: rgb(21, 41, 42);
     color: #6c27b6;
-    //text-shadow: 1px 2px rgb(22, 188, 158);
-    text-shadow: 1px 2px 2px rgb(255,255,255);
+    //text-shadow: 1px 2px 2px  rgb(22, 188, 158);
+    text-shadow: 2px 2px 2px rgb(255,255,255);
     padding: 0;
     margin: 5px 0 14px 0;
     font-size: 2rem;
@@ -141,10 +144,25 @@ hr{
         align-items: flex-end;
         margin: 12px 12px 0 0;
     }
+    .openDrawer{
+        transform: translateX(-125px);
+    }
+    .mobileNav{
+        display: flex;
+        height: 65vh;
+        width: 100px;
+        position: fixed;
+        background-color: #070840;
+        flex-direction: column;
+        justify-content: space-around;
+        right: -120px;
+        transition: all .2s;
+        border-radius: 10px;
+    }
 
 }
        
-  }
+  
   @media screen and (max-width:500px){
     .container p{
         width:91vw;

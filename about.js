@@ -1,5 +1,10 @@
 const hamburger = document.querySelector(".hamburger");
+const mobileNav = document.querySelector(".mobileNav");
+const closeDrawer = document.querySelector(".closeDrawer");
 
 hamburger.addEventListener("click", () => {
-  alert("Home of future slideout nav bar");
+  mobileNav.classList.add("openDrawer");
+});
+closeDrawer.addEventListener("click", () => {
+  mobileNav.classList.remove("openDrawer");
 });
