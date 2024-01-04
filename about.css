@@ -50,11 +50,6 @@ nav a{
 
 
 
-// link{
-//     color: #fc0b2a;
-//     text-decoration: underline;
-//     text-shadow: 3px -4px 5px blue;
-// }
 
 h1{
     //color: rgb(21, 41, 42);
@@ -157,7 +152,15 @@ hr{
         justify-content: space-around;
         right: -120px;
         transition: all .2s;
-        border-radius: 10px;
+        border-radius: 30px;
+        border: 2px solid white;
+    }
+    .closeDrawer{
+        font-size: 1.5rem;
+        color: rgb(255, 132, 0);
+        width: 25px;
+        border-radius: 50%;
+        margin-left: 30px;
     }
 
 }
