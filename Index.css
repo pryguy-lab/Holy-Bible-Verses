@@ -255,16 +255,7 @@ hr{
   animation: fadeBar3 .25s forwards;
 
 }
-.reAnimateBar1{
-  animation: bringBar1 .25s forwards;
-}
-.reAnimateBar2{
-  animation: bringBar2 .5s forwards;
-}
-.reAnimateBar3{
-  animation: bringBar3 .25s forwards;
 
-}
 @keyframes fadeBar1 {
   from {
     transform: scalex(1);
@@ -304,43 +295,3 @@ hr{
   }
   
 }
-@keyframes bringBar1 {
-  from {
-    transform: scalex(0);
-    opacity: 0;
-  }
-   to{
-    transform: scalex(1);
-    opacity: 1;
-
-
-  }
-}
-
-@keyframes bringBar2 {
-  from {
-    transform: scalex(0);
-    opacity: 0;
-  }
-   to{
-    transform: scalex(1);
-    opacity: 1;
-
-
-  }
-  
-}
-@keyframes bringBar3 {
-  from {
-    transform: scalex(0);
-    opacity: 0;
-  }
-   to{
-    transform: scalex(1);
-    opacity: 1;
-
-
-  }
-  
-}
-
