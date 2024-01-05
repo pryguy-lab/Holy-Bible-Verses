@@ -1,0 +1,230 @@
+html, body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0 auto;
+}
+header{
+    margin-top: 10px;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+
+nav a{
+    text-decoration: none;
+    border: rgb(60,212,205) 3px solid;
+    padding: 2px 5px;
+    border-radius: 13px;
+    color: aliceblue;
+    margin: 0 10px;
+    font-size: 1.1rem;
+    box-shadow: 2px 2px 17px 7px rgba(0, 0, 0, 0.3);
+    
+}
+.signIn{
+    margin-right: 30px;
+}
+.bar1,.bar2,.bar3{
+    background-color: rgb(60, 212, 204);
+    height: 3px;
+    width: 34px;
+    border-radius: 10px;
+    margin: 2px;
+    border: black 1px solid;
+    
+}
+.hamburger{
+    display: none;
+}
+.mobileNav{
+    display: none;
+}
+
+
+
+
+h1{
+    //color: rgb(21, 41, 42);
+    color: #6c27b6;
+    //text-shadow: 1px 2px 2px  rgb(22, 188, 158);
+    text-shadow: 2px 2px 2px rgb(255,255,255);
+    padding: 0;
+    margin: 5px 0 14px 0;
+    font-size: 2rem;
+    letter-spacing: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+     
+    
+}
+.container p{
+    font-size: 1.2rem;
+    //font-size: 1.9rem;
+    font-weight: 200;
+    //color: rgb(139, 229, 243);
+    color: rgb(180,240,253);
+    text-shadow: 4px 4px 4px rgba(18,18,48, 0.541);
+    padding: 2px 15px;
+    margin: 0 auto;
+   
+}
+
+.container .top-section ,.mid-section,.bottom-section{
+    padding: 10px 0;
+    background-color: rgba(31, 34, 34, 0.111);
+    width:65vw;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 2px 2px 17px 7px rgba(0, 0, 0, 0.3);
+    
+}
+.container .bottom-section{
+   margin-bottom: 50px;
+}
+.container p a{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #031d9f;
+    text-decoration: underline ;
+    text-shadow: 1px -1px 2px rgb(250, 248, 247);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
+}
+hr{
+    height: 10px  ;
+    width: 45vw;
+    background-color: rgb(22, 40, 120);
+    border-style: none;
+    opacity: .2;
+}
+.verse{
+    font-size: 1.1rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px -2px 5px rgb(108, 108, 152);
+    background-color: rgba(160, 167, 167, 0.558);
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+@media screen and (max-width:900px){
+.container .top-section ,.mid-section,.bottom-section{
+   width: 97vw;
+      
+}
+}
+
+@media screen and (max-width:700px){
+    nav{
+      display: none;
+     } 
+     header{
+        margin: 0;
+     }
+     .hamburger{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 12px 12px 0 0;
+    }
+    .openDrawer{
+        transform: translateX(-190px);
+    }
+    .mobileNav{
+        display: flex;
+        height: 65vh;
+        width: 170px;
+        position: fixed;
+        background-color: #070840;
+        flex-direction: column;
+        justify-content: space-around;
+        right: -180px;
+        transition: all .2s;
+        border-radius: 30px;
+        border: 2px solid white;
+    }
+    .closeDrawer{
+        font-size: 1.5rem;
+        color: rgb(255, 132, 0);
+        width: 25px;
+        border-radius: 50%;
+        margin-left: 64px;
+    }
+
+}
+       
+  
+  @media screen and (max-width:500px){
+    .container p{
+        width:91vw;
+        padding: 3px 0px;
+        font-size: 1.2rem;
+    }
+    .container p a{
+        font-size: 1.5rem;
+    }
+  }
+  .animateBar1{
+    animation: fadeBar1 .25s forwards;
+  }
+  .animateBar2{
+    animation: fadeBar2 .5s forwards;
+  }
+  .animateBar3{
+    animation: fadeBar3 .25s forwards;
+  
+  }
+  
+  @keyframes fadeBar1 {
+    from {
+      transform: scalex(1);
+      opacity: 1;
+    }
+     to{
+      transform: scalex(0);
+      opacity: 0;
+  
+  
+    }
+  }
+  
+  @keyframes fadeBar2 {
+    from {
+      transform: scalex(1);
+      opacity: 1;
+    }
+     to{
+      transform: scalex(0);
+      opacity: 0;
+  
+  
+    }
+    
+  }
+  @keyframes fadeBar3 {
+    from {
+      transform: scalex(1);
+      opacity: 1;
+    }
+     to{
+      transform: scalex(0);
+      opacity: 0;
+  
+  
+    }
+    
+  }
+  
+

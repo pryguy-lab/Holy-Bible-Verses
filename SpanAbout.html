@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="./SpanAbout.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,37 +13,49 @@
     <title>About</title>
   </head>
   <body background="./IMG_3983.JPG">
-    <nav>
-      <ul>
-        <li><a href="./SpanHome.html">pagina de inicio</a></li>
-      </ul>
-      <ul>
-        <li><a href="./signIn.html">Registrarse</a></li>
-      </ul>
+    <header>
+      <nav>      
+        <a href="./SpanHome.html">pagina de inicio</a>
+        <a href="./about.html">English</a>     
+        <a href="./signIn.html">Registrarse</a>
     </nav>
-      <h1>misión</h1>
+    <div class="hamburger">    
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>  
+    </header>
+    <nav class="mobileNav">    
+      <a href="./SpanHome.html">pagina de inicio</a>
+      <a href="./About.html">English</a>
+      <a href="./signIn.html">Registrarse</a>
+      <a class="closeDrawer">X</a>
+    </nav>  
+    
+      <h1>Misión</h1>
       
       <div class="container">
         <section class="top-section"><p class="top-pg">
-          This web site is devoted to sharing the</p>
+          Este sitio web está dedicado a compartir la</p>
           <p>
-            <a href="https://www.biblegateway.com/passage/?search=Hebrews%204%3A12&version=NIV" target="_blank"><i>la palabra de Dios</i></a>
+            <a href="https://www.biblegateway.com/passage/?search=Hebrews%204%3A12&version=NIV" target="_blank"><i>Palabra de dios</i></a>
 
           </p>
               
-        <p class="sec-pg">The home page is changed every few days with a differnet Bible Verse.</p></section>
+        <p class="sec-pg">La página de inicio cambia cada pocos días con un versículo bíblico diferente.</p></section>
         <hr>
-        <section class="mid-section"><p thd-pg> According to the Bible:</p>
-          <p forth-pg>for all have sinned and fall short of the Glory of God.</p>
-          <p><span class="verse">Romans 3:23-24 (ASV)</span></p>          
+        <section class="mid-section"><p thd-pg> Según la Biblia:</p>
+          <p forth-pg> por cuanto todos pecaron, y están destituidos de la gloria de Dios, 24 siendo justificados gratuitamente por su gracia, mediante la redención que es en Cristo Jesús,</p>
+          <p><span class="verse">Romanos 3:23-24 (Reina-Valera 1960)</span></p>          
         </section>
         <hr>
        <section class="bottom-section">
-        <p fifth-pg>For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.</p>
-        <p class="bot-pg"><span class="verse">John 3:16 (KJV)</span></p>  
+        <p fifth-pg>Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna.</p>
+        <p class="bot-pg"><span class="verse">Juan 3:16 (Reina-Valera 1960)</span></p>  
        </section>
                 
       </div>
     </main>
+    <script src="./SpanAbout.js"></script>
   </body>
 </html>
