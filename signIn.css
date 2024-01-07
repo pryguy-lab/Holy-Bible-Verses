@@ -25,19 +25,13 @@ nav a{
     padding: 4px 7px;
     border-radius: 10px;
     color: rgb(253, 253, 253);
-    margin: 0;
+    margin:4px;
     font-size: 1.2rem;
-    //letter-spacing: 1px;
     background-color: rgba(0, 0, 0, 0.574);
     font-weight: bold;
 }
-nav ul li{
-    list-style: none;
-    //text-shadow: 2px 2px rgb(8, 2, 121);
-}
-nav ul{
-    padding: 10px;
-}
+
+
 @media screen and (max-width:500px){
     h1{
         font-size: 1.4rem;

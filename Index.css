@@ -240,6 +240,16 @@ hr{
   margin: 30px 100px;
  
 }
+.grid{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.grid img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
 
 
 .animateBar1{
