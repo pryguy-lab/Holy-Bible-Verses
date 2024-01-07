@@ -23,7 +23,7 @@ nav{
   font-weight:bold;
   letter-spacing: 2px;
   text-decoration: none;
-  padding: 0px 10px;
+  padding: 4px 10px;
   margin: 0px 5px;
   border: rgba(13, 23, 41, 0.21) 3px solid;
   text-shadow: rgba(247, 243, 243, 0.896) .5px 1px;
@@ -150,6 +150,10 @@ h1 {
   margin-left: auto;
   margin-right: auto;   
   padding: 0px 40px;
+  background-image:url(./background2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
   // background-color: brown;
    
 }
@@ -193,7 +197,7 @@ h1 {
   }
 }
 
-p::first-letter {
+.paragraph::first-letter {
   font-size: 5rem;
   font-weight: bold;
   color: rgb(216, 7, 7);
@@ -231,19 +235,12 @@ p::first-letter {
   font-weight: bold;
 }
 
-.button-container {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
-  // background-color: rgba(49, 136, 136, 0.627);
-}
-
-
 hr{
   border-bottom: 3px rgba(9, 84, 214, 0.24) solid;
   margin: 30px 100px;
  
 }
+
 
 .animateBar1{
   animation: fadeBar1 .25s forwards;
