@@ -154,7 +154,7 @@ html,body {
   
   @media screen and (max-width: 900px) {
     .text-container {
-      padding: 8px;
+      padding: 6px;
     }
   }
   
@@ -213,7 +213,7 @@ html,body {
   }
   
   .book::first-letter {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     color: rgb(216, 7, 7);
     text-shadow: rgba(6, 15, 18, 0.89) 2px 2px;
