@@ -208,6 +208,9 @@ h1 {
   p::first-letter {
     font-size: 3.5rem;
   }
+  body{
+    margin: 0 auto;
+  }
 }
 
 .book {
