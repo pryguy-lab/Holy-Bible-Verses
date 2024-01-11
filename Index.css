@@ -204,14 +204,6 @@ h1 {
   text-shadow: rgba(6, 15, 18, 0.89) 2px 2px;
 }
 
-@media screen and (max-width: 786px) {
-  p::first-letter {
-    font-size: 3.5rem;
-  }
-  body{
-    margin: 0 auto;
-  }
-}
 
 .book {
   color: rgb(31, 13, 127);
@@ -226,6 +218,17 @@ h1 {
   font-weight: bold;
   color: rgb(216, 7, 7);
   text-shadow: rgba(6, 15, 18, 0.89) 2px 2px;
+}
+@media screen and (max-width: 786px) {
+  p::first-letter {
+    font-size: 3.5rem;
+  }
+  body{
+    margin: 0 auto;
+  }.book{
+    letter-spacing: .06em;
+  }
+  
 }
 
 .verses {
