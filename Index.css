@@ -12,12 +12,17 @@ html,body {
 }
 .number{
   color: rgb(216,7,7);
-  letter-spacing: 1px;
+  letter-spacing: -1px;
   font-size: 1.4rem;
+  display: inline-block;
+  transform: translate(4px,-4px);
+  
+  
 }
 .firstLetter{
   color: rgb(216,7,7);
   font-size: 5rem;
+  text-shadow: rgba(6, 15, 18, 0.89) -3px 4px;
 }
 
 nav{
