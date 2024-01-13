@@ -10,6 +10,15 @@ html,body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.number{
+  color: rgb(216,7,7);
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+.firstLetter{
+  color: rgb(216,7,7);
+  font-size: 5rem;
+}
 
 nav{
   display: flex;
@@ -197,12 +206,13 @@ h1 {
   }
 }
 
-.paragraph::first-letter {
-  font-size: 5rem;
-  font-weight: bold;
-  color: rgb(216, 7, 7);
-  text-shadow: rgba(6, 15, 18, 0.89) 2px 2px;
-}
+// .paragraph::first-letter {
+//   font-size: 5rem;
+//   font-weight: bold;
+//   color: rgb(216, 7, 7);
+//   text-shadow: rgba(6, 15, 18, 0.89) 2px 2px;
+// }
+
 
 
 .book {
