@@ -1,0 +1,40 @@
+body,html{
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100vh ;
+    display: flex;
+    flex-direction: column;
+        
+}
+h1{
+    text-align: center;
+    color: rgb(253, 253, 253);
+    background-color: rgba(0, 0, 0, 0.549);
+    display: inline;
+    margin: 0 auto;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+nav a{
+    text-decoration: none;
+    border: black 2px solid;
+    padding: 4px 7px;
+    border-radius: 10px;
+    color: rgb(253, 253, 253);
+    margin:4px;
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.574);
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:500px){
+    h1{
+        font-size: 1.4rem;
+    }
+    
+}
