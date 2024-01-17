@@ -4,15 +4,14 @@ html, body{
     text-align: center;
     background-size:cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
     margin: 0 auto;
 }
-header{
-    margin-top: 10px;
-}
+
 nav{
+  margin: 20px 20px 0 20px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     
 }
 
@@ -24,14 +23,12 @@ nav a{
     padding: 4px 5px;
     border-radius: 13px;
     color: aliceblue;
-    margin: 0 10px;
+    margin: 0 4px;
     font-size: 1.1rem;
     box-shadow: 2px 2px 17px 7px rgba(0, 0, 0, 0.3);
     
 }
-.signIn{
-    margin-right: 30px;
-}
+
 .bar1,.bar2,.bar3{
     background-color: rgb(60, 212, 204);
     height: 3px;
@@ -57,7 +54,7 @@ h1{
     //text-shadow: 1px 2px 2px  rgb(22, 188, 158);
     text-shadow: 2px 2px 2px rgb(255,255,255);
     padding: 0;
-    margin: 5px 0 14px 0;
+    margin: 36px 0 14px 0;
     font-size: 3rem;
     letter-spacing: 4px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
