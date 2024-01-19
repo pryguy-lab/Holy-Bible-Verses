@@ -148,9 +148,10 @@ hr{
         flex-direction: column;
         justify-content: space-around;
         right: -160px;
-        transition: all .2s;
+        transition: all .5s;
         border-radius: 30px;
         border: 2px solid white;
+        top: -10px;
     }
     .closeDrawer{
         font-size: 1.5rem;
