@@ -69,9 +69,7 @@ h1{
 }
 .container p{
     font-size: 1.2rem;
-    //font-size: 1.9rem;
     font-weight: 200;
-    //color: rgb(139, 229, 243);
     color: rgb(180,240,253);
     text-shadow: 4px 4px 4px rgba(18,18,48, 0.541);
     padding: 2px 15px;
