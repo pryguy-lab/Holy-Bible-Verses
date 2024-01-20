@@ -23,8 +23,7 @@ nav a{
     padding: 6px 7px;
     border-radius: 18px;
     color: aliceblue;
-    margin: 0 10px;
-    //font-size: 1.2rem;
+    margin: 0 4px;
     box-shadow: 2px 2px 17px 7px rgba(0, 0, 0, 0.3);
     
 }
@@ -94,7 +93,7 @@ h1{
    margin-bottom: 50px;
 }
 .container p a{
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #9f0303;
     text-decoration: underline ;
@@ -174,7 +173,10 @@ hr{
         padding: 3px 0px;
         font-size: 1.2rem;
     }
-    
+    nav a{
+      font-size: 1.2rem;
+      margin: 0 16px;
+    }
   }
   .animateBar1{
     animation: fadeBar1 .25s forwards;
