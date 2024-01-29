@@ -31,14 +31,14 @@ nav{
   margin-top: 15px;
 }
 
-.nav-left a, .nav-right a,.mobileNav a{
+.nav-left a, .nav-middle a, .nav-right a,.mobileNav a{
   color: rgb(0, 0, 0);
   font-size: 1.5rem;
   font-weight:bold;
   letter-spacing: 2px;
   text-decoration: none;
   padding: 4px 10px;
-  margin: 0px 5px;
+  // margin: 0px 5px;
   border: rgba(13, 23, 41, 0.21) 3px solid;
   text-shadow: rgba(247, 243, 243, 0.896) .5px 1px;
   border-radius: 7px;
@@ -51,15 +51,15 @@ nav{
   margin: 10px;
 }
 .mobileNav{
-  width: 150px;
+  width: 198px;
   background-color: rgb(114, 168, 226);
-  height: 65vh;
+  height: 78vh;
   display: none;
   flex-direction: column;
   align-items: center;
   position: fixed;
   z-index: 2;  
-  right: -160px;
+  right: -206px;
   //margin-top: -60px;
   top: 30px;
   border: 2px solid white;
@@ -69,7 +69,7 @@ nav{
 }
 
 .openDrawer{
-  transform: translateX(-190px);
+  transform: translateX(-236px);
 
 }
 .close{
@@ -78,7 +78,7 @@ nav{
  .mobileNav .closeDrawer{
   color: rgb(198, 27, 27);
   border-radius: 50%;
-  margin-left: 47px;
+  margin-left: 76px;
   width: 20px;
 
 }
@@ -102,7 +102,7 @@ nav{
     margin: 0;
       
   }
-   .nav-left,.nav-right{
+   .nav-left, .nav-middle, .nav-right{
     display: none;
   } 
   .mobileNav {
@@ -134,7 +134,7 @@ h1 {
   color: rgb(39, 18, 160);
   letter-spacing: 10px;
   text-shadow: rgba(251, 251, 251, 0.896) 1px 2px;
-  margin: 0px 100px 20px 100px;
+  margin: 25px 100px 20px 100px;
   padding: 15px 0;
   font-size: 3.5rem;
   border-bottom: 3px rgba(9, 84, 214, 0.275) solid;
@@ -143,7 +143,7 @@ h1 {
 @media screen and (max-width: 900px) {
   h1 {
     font-size: 2.8rem;
-    margin: 15px 7px 20px 7px;
+    margin: 35px 7px 20px 7px;
     letter-spacing: 3px;
     padding: 0;
   }
