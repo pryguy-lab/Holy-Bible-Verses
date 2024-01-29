@@ -4,7 +4,21 @@ body{
     font-family: 'Belgrano', serif;
     margin: 0 auto;
 }
+nav{
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
 
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    border: 2px solid rgba(255, 235, 205, 0.823);
+    color: rgb(189,6,65);
+    padding: 2px 6px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 4px white;
+}
 
 .top-section{
     display: flex;
