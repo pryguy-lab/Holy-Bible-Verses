@@ -17,19 +17,21 @@ nav{
 
 
 
-nav a{
+nav a,.mobileHome a{
     text-decoration: none;
     border: rgb(60,212,205) 3px solid;
     padding: 6px 7px;
     border-radius: 18px;
     color: aliceblue;
-    margin: 0 4px;
+    margin: 0 16px;
     text-shadow:2px 2px 2px #0b0b0b;
     box-shadow: 2px 2px 17px 7px rgba(0, 0, 0, 0.3);
     font-weight: 600;
     letter-spacing: 2px;
     
 }
+
+
 
 .bar1,.bar2,.bar3{
     background-color: rgb(60, 212, 204);
@@ -46,7 +48,9 @@ nav a{
 .mobileNav{
     display: none;
 }
-
+.menu{
+  display: none;
+}
 
 
 
@@ -135,20 +139,26 @@ hr{
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        margin: 12px 12px 0 0;
+        margin: 0 0 0 16px;
+    }
+    .menu{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 20px;
     }
     .openDrawer{
-        transform: translateX(-160px);
+        transform: translateX(160px);
     }
     .mobileNav{
         display: flex;
-        height: 75vh;
+        height: 36vh;
         width: 128px;
         position: fixed;
         background-color: #070840;
         flex-direction: column;
         justify-content: space-around;
-        right: -160px;
+        right: 100%;
         transition: all .5s;
         border-radius: 30px;
         border: 2px solid white;
