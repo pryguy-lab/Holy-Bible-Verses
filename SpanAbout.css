@@ -19,7 +19,7 @@ nav{
 
 
 
-nav a{
+nav a, .mobileHome a{
     text-decoration: none;
     border: rgb(60,212,205) 3px solid;
     padding: 5px 8px;
@@ -50,6 +50,10 @@ nav a{
 .mobileNav{
     display: none;
 }
+.mobileMenu{
+  display: none;
+}
+
 
 
 
@@ -139,24 +143,30 @@ hr{
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        margin: 12px 12px 0 0;
+        margin: 0 0 0 16px;
+    }
+    .mobileMenu{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 20px;
     }
     .openDrawer{
-        transform: translateX(-190px);
+        transform: translateX(140px);
     }
     .mobileNav{
         display: flex;
-        height: 65vh;
-        width: 170px;
+        height: 33vh;
+        width: 124px;
         position: fixed;
         background-color: #070840;
         flex-direction: column;
         justify-content: space-around;
-        right: -180px;
+        right: 100%;
         transition: all .5s;
         border-radius: 30px;
         border: 2px solid white;
-        top: 9px;
+        top: -10px;
 
     }
     .closeDrawer{
@@ -164,10 +174,10 @@ hr{
         color: rgb(255, 132, 0);
         width: 25px;
         border-radius: 50%;
-        margin-left: 64px;
+        margin-left: 40px;
     }
     h1{
-      margin: 0 0 10px 0;
+      margin: 12px 0 10px 0;
       font-size: 2.5rem;
     }
 

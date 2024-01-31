@@ -48,7 +48,7 @@ nav a,.mobileHome a{
 .mobileNav{
     display: none;
 }
-.menu{
+.mobileMenu{
   display: none;
 }
 
@@ -141,7 +141,7 @@ hr{
         align-items: flex-end;
         margin: 0 0 0 16px;
     }
-    .menu{
+    .mobileMenu{
       display: flex;
       align-items: center;
       justify-content: space-between;
