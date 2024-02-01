@@ -17,7 +17,7 @@ html,body {
     margin-top: 15px;
   }
   
-  .nav-left a, .nav-right a,.mobileNav a{
+  .nav-left a, .nav-middle a, .nav-right a,.mobileNav a{
     color: rgb(0, 0, 0);
     font-size: 1.5rem;
     font-weight:bold;

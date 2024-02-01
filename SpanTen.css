@@ -1,0 +1,52 @@
+body{
+    background-color: cornflowerblue;
+    text-align: center;
+    font-family: 'Belgrano', serif;
+    margin: 0 auto;
+}
+nav{
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    border: 2px solid rgba(255, 235, 205, 0.823);
+    color: rgb(189,6,65);
+    padding: 2px 6px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 4px white;
+}
+
+.top-section{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 2px rgb(101, 255, 203);
+}
+p{
+    margin: 20px 50px 20px 50px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(0,239,220);
+    text-shadow: 2px 2px 8px rgb(19,7,3);
+    box-shadow: 2px 7px 28px 7px black;
+    padding: 15px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+}
+p:hover{
+    color: rgba(255, 0, 0, 0.956);
+    text-shadow: 2px 2px 8px rgb(223, 182, 169);
+    cursor: pointer;
+}
+@media  screen and (max-width:700px) {
+    p{
+        margin: 10px 4px;
+    }
+    
+}
