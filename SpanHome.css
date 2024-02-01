@@ -37,7 +37,7 @@ html,body {
     margin: 10px;
   }
   .mobileNav{
-    width: 170px;
+    width: 190px;
     background-color: rgb(114, 168, 226);
     height: 65vh;
     display: none;
@@ -62,7 +62,7 @@ html,body {
   .mobileNav .closeDrawer{
     color: rgb(198, 27, 27);
     border-radius: 50%;
-    margin-left: 59px;
+    margin-left: 68px;
     width: 20px;
   }
     
@@ -215,12 +215,7 @@ html,body {
     }
   }
   
-  // p::first-letter {
-  //   font-size: 5rem;
-  //   font-weight: bold;
-  //   color: rgb(216, 7, 7);
-  //   text-shadow: rgba(6, 15, 18, 0.89) 2px 2px;
-  // }
+  
   
   @media screen and (max-width: 786px) {
     p::first-letter {
