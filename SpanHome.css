@@ -38,7 +38,7 @@ html,body {
     margin: 10px;
   }
   .mobileNav{
-    width: 190px;
+    width: 206px;
     background-color: rgb(114, 168, 226);
     height: 65vh;
     display: none;
@@ -47,7 +47,7 @@ html,body {
     align-items: center;
     position: fixed;
     z-index: 2;  
-    right: -198px;
+    right: -212px;
     //margin-top: -60px;
     top: 30px;
     border: 2px solid white;
@@ -57,13 +57,13 @@ html,body {
   }
   
   .openDrawer{
-    transform: translateX(-226px);
+    transform: translateX(-243px);
   
   }
   .mobileNav .closeDrawer{
     color: rgb(198, 27, 27);
     border-radius: 50%;
-    margin-left: 72px;
+    margin-left: 79px;
     width: 20px;
   }
     
