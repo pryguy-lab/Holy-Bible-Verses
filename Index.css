@@ -124,7 +124,7 @@ nav a:hover{
 }
  
  .bar1,.bar2,.bar3{
-  background-color: black;
+  background-color: #ffffffd9;
   height: 2px;
   width: 30px;
   border-radius: 10px;
@@ -137,9 +137,9 @@ h1 {
   color: rgb(39, 18, 160);
   letter-spacing: 10px;
   text-shadow: rgba(251, 251, 251, 0.896) 1px 2px;
-  margin: 25px 100px 20px 100px;
+  margin: 68px 100px 40px 100px;
   padding: 15px 0;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   border-bottom: 3px rgba(9, 84, 214, 0.275) solid;
   // background-color: aquamarine;
 }
