@@ -275,6 +275,10 @@ hr{
   height: 100vh;
   object-fit: cover;
 }
+.sunset{
+  width: 100%;
+  margin: 30px 0 20px 0;
+}
 
 
 .animateBar1{
