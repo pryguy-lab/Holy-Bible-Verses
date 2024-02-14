@@ -159,6 +159,7 @@ h1 {
   h1{
     margin-top: 0px;
   }
+  
 }
 
 
@@ -173,10 +174,24 @@ h1 {
   // background-color: brown;
    
 }
+.sunset{
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  margin: 0 0 40px 0;
+
+}
+.sunset img{
+  width: 100%;
+  margin: 30px 0 0 0;
+}
 
 @media screen and (max-width: 900px) {
   .text-container {
     padding: 8px;
+  }
+  .sunset{
+    margin: 0;
   }
 }
 
@@ -248,6 +263,7 @@ h1 {
     letter-spacing: .06em;
   }
   
+  
 }
 
 .verses {
@@ -275,10 +291,7 @@ hr{
   height: 100vh;
   object-fit: cover;
 }
-.sunset{
-  width: 100%;
-  margin: 30px 0 20px 0;
-}
+
 
 
 .animateBar1{
