@@ -178,6 +178,18 @@ html,body {
     // background-color: brown;
      
   }
+  .Crucifix{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin: 0 0 40px 0;
+  
+  }
+  .Crucifix img{
+    width: 100%;
+    margin: 30px 0 0 0;
+    opacity: 1;
+  }
   
   @media screen and (max-width: 900px) {
     .text-container {
