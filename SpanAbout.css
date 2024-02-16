@@ -64,7 +64,7 @@ h1{
     //text-shadow: 1px 2px 2px  rgb(22, 188, 158);
     text-shadow: 2px 2px 2px rgb(255,255,255);
     padding: 0;
-    margin: 24px 0 14px 0;
+    margin: 30px 0 34px 0;
     font-size: 3rem;
     letter-spacing: 4px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -79,7 +79,7 @@ h1{
     
 }
 .container p{
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     font-weight: 200;
     color: rgb(180,240,253);
     text-shadow: 4px 4px 4px rgba(18,18,48, 0.541);
@@ -92,7 +92,7 @@ h1{
 .container .top-section ,.mid-section,.bottom-section{
     padding: 10px 0;
     background-color: rgba(31, 34, 34, 0.111);
-    width:65vw;
+    width:75vw;
     margin: 0 auto;
     border-radius: 10px;
     display: inline-block;
@@ -103,7 +103,7 @@ h1{
    margin-bottom: 50px;
 }
 .container p a{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     color: #9f0303;
     text-decoration: underline ;
