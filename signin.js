@@ -1,10 +1,13 @@
 let mainBtn = document.querySelector(".mainBtn");
 let answer = document.querySelector(".answer");
-let midsectionon = document.querySelector(".midsectionon");
+let midsection = document.querySelector(".midsection");
 
 mainBtn.addEventListener("click", (e) => {
   e.target.remove();
-  let user = prompt("Please enter your name or press enter");
-  midsectionon.classList.add();
-  answer.innerText = `hello ${user}, welcome to our website!  Please make a selection`;
+  user = prompt("Please enter your name or press enter");
+  answer.classList.add("answerpad");
+  if (user == null) {
+    answer.innerText = `God bless you !  Please make a selection.`;
+  } else
+    answer.innerText = `hello ${user}, welcome to the website!  Please make a selection.`;
 });
