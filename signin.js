@@ -1,6 +1,7 @@
 let mainBtn = document.querySelector(".mainBtn");
 let answer = document.querySelector(".answer");
 let midsection = document.querySelector(".midsection");
+let hamburger = document.querySelector(".hamburger");
 
 mainBtn.addEventListener("click", (e) => {
   e.target.remove();
@@ -10,4 +11,7 @@ mainBtn.addEventListener("click", (e) => {
     answer.innerText = `God bless you !  Please make a selection.`;
   } else
     answer.innerText = `hello ${user}, welcome to the website!  Please make a selection.`;
+});
+hamburger.addEventListener("click", () => {
+  alert("test message !");
 });
