@@ -45,11 +45,37 @@ nav a{
 }
 
 .midsection{
-    display: flex;
-    text-align: center;
+    display: none;
 }
 
-.answerpad{
+.midsection.active{
+    display: flex;
+}
+.midsection .hamburger {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+
+}
+p{
+    margin: 10px;
+}
+.bar1,.bar2,.bar3{
+    background-color: #ffffffd9;
+    height: 4px;
+    width: 30px;
+    border-radius: 10px;
+    margin: 3px;
+  
+  }
+
+.midsection{
     font-size: 1.5rem;
     color: rgb(13, 192, 233);
     text-align: center;

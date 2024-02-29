@@ -5,7 +5,7 @@ let midsection = document.querySelector(".midsection");
 mainBtn.addEventListener("click", (e) => {
   e.target.remove();
   user = prompt("Please enter your name or press enter");
-  answer.classList.add("answerpad");
+  midsection.classList.add("active");
   if (user == null) {
     answer.innerText = `God bless you !  Please make a selection.`;
   } else
