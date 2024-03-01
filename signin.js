@@ -9,8 +9,7 @@ mainBtn.addEventListener("click", (e) => {
   midsection.classList.add("active");
   if (user == null) {
     answer.innerText = `God bless you !  Please make a selection.`;
-  } else
-    answer.innerText = `hello ${user}, welcome to the website!  Please make a selection.`;
+  } else answer.innerText = `hello ${user}!, Please make a selection.`;
 });
 hamburger.addEventListener("click", () => {
   alert("test message !");
