@@ -21,7 +21,6 @@ nav{
     display: flex;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.511);
-    //margin: 10px 0;
 }
 nav a{
     text-decoration: none;
@@ -37,9 +36,11 @@ nav a{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin: 5px;
 }
 .navRight{
     display: flex;
+    margin: 5px;
 }
 .mainBtn{
     background-color: rgb(0, 242, 255);
