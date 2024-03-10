@@ -148,8 +148,10 @@ h2{
   font-size: 3rem;
   color: rgb(5,117,141);
   border-bottom: 3px rgba(146,9, 214, 0.275) solid;
+  text-shadow: -1px 2px 0px #0b0740;
   margin: 75px 285px 25px 285px;
   letter-spacing: 8px;
+  padding-bottom: 10px;
 
   
 
@@ -163,7 +165,8 @@ h2{
     padding: 0;
   }
   h2{
-    margin: 0;
+    font-size: 1.5rem;
+    margin: 48px 50px 15px 50px;
   }
  
 }
@@ -291,7 +294,7 @@ h2{
 
 hr{
   border-bottom: 3px rgba(9, 84, 214, 0.24) solid;
-  margin: 30px 100px;
+  margin: 30px ;
  
 }
 .grid{
