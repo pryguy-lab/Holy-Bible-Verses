@@ -25,14 +25,15 @@ nav{
 nav a{
     text-decoration: none;
     border: black 2px solid;
-    padding: 0px 7px;
+    padding: 2px 7px;
     border-radius: 10px;
     color: rgb(253, 253, 253);
     margin:4px;
     font-size: 1.2rem;
     background-color: rgba(53, 230, 230, 0.574);
     font-weight: bold;
-}.navLeft{
+}
+.navLeft{
     display: flex;
     flex-direction: column;
     justify-content: space-around;

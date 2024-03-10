@@ -144,6 +144,16 @@ h1 {
   border-bottom: 3px rgba(9, 84, 214, 0.275) solid;
   // background-color: aquamarine;
 }
+h2{
+  font-size: 3rem;
+  color: rgb(5,117,141);
+  border-bottom: 3px rgba(146,9, 214, 0.275) solid;
+  margin: 75px 285px 25px 285px;
+  letter-spacing: 8px;
+
+  
+
+}
 
 @media screen and (max-width: 900px) {
   h1 {
