@@ -166,16 +166,23 @@ h2{
   }
   h2{
     font-size: 1.5rem;
-    margin: 48px 80px 15px 80px;
+    margin: 48px 210px 15px 210px;
     letter-spacing: 5px;
+  }
+  .nav-left a, .nav-middle a, .nav-right a,.mobileNav a{
+    font-size: 1rem;
   }
  
 }
+
 @media screen and (max-width: 700px){
   h1{
     margin-top: 0px;
   }
-  
+  h2{
+    margin-left: 72px;
+    margin-right: 72px;
+  }
 }
 
 
