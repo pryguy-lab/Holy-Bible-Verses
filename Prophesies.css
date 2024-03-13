@@ -1,5 +1,5 @@
 body,html{
-    background-color: #2fc29d;
+    background-color: #cffbf0;
     align-items: center;
 }
 header{
@@ -21,13 +21,14 @@ main{
     margin: 0 50px;
 }
 h1{
-    background-color: rgba(254, 255, 255, 0.767);
     color: rgb(34, 144, 239);
     text-shadow: 1px 1px 1px black;
     display: inline-block;
     margin: 0;
     padding: 8px;
-    border-radius: 20px;
-    border: #2416cf 3px solid;
 
+}
+
+p{
+    font-size: large;
 }
