@@ -190,7 +190,7 @@ h2{
   border: solid 5px rgba(21, 7, 228, 0.748);
   margin-left: auto;
   margin-right: auto;   
-  padding: 0px 40px;
+  padding: 0px 18px;
   background-image:url(./background2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -201,7 +201,7 @@ h2{
   display: flex;
   justify-content: space-around;
   box-sizing: border-box;
-  margin: 0 0 40px 0;
+  margin: 0 0 18px 0;
 
 }
 .Cross img{
@@ -253,14 +253,6 @@ h2{
     padding-left: 7px;
   }
 }
-
-// .paragraph::first-letter {
-//   font-size: 5rem;
-//   font-weight: bold;
-//   color: rgb(216, 7, 7);
-//   text-shadow: rgba(6, 15, 18, 0.89) 2px 2px;
-// }
-
 
 
 .book {

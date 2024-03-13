@@ -1,0 +1,33 @@
+body,html{
+    background-color: #2fc29d;
+    align-items: center;
+}
+header{
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+nav a{
+    text-decoration: none;
+    padding: 4px 8px;
+    background-color: #2416cf;
+    color: beige;
+    border-radius: 10px;
+}
+main{
+    text-align: center;
+    margin: 0 50px;
+}
+h1{
+    background-color: rgba(254, 255, 255, 0.767);
+    color: rgb(34, 144, 239);
+    text-shadow: 1px 1px 1px black;
+    display: inline-block;
+    margin: 0;
+    padding: 8px;
+    border-radius: 20px;
+    border: #2416cf 3px solid;
+
+}
