@@ -18,7 +18,7 @@ nav a{
 }
 main{
     text-align: center;
-    margin: 0 50px;
+    margin: 0 10px;
 }
 h1{
     color: rgb(34, 144, 239);
@@ -26,9 +26,24 @@ h1{
     display: inline-block;
     margin: 0;
     padding: 8px;
+    font-size: 3.5rem;
 
 }
 
 p{
-    font-size: large;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 34px;
+    letter-spacing: 2px;
+    // text-shadow: 1px 1px 1px rgb(34,144,239);
+}
+@media screen and (max-width:500px){
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
 }
