@@ -1,7 +1,7 @@
 html,body {
   font-family: "Felipa", cursive;
   box-sizing: border-box;
-  background-color: rgb(36, 55, 88);
+ // background-color: rgb(36, 55, 88);
   border: rgba(251, 251, 251, 0.896) 2px solid;
   padding-bottom: 5px;
   padding-top: 5px;
@@ -34,7 +34,8 @@ nav{
 }
 
 .nav-left a, .nav-middle a, .nav-right a,.mobileNav a{
-  color: rgb(0, 0, 0);
+  // color: rgb(0, 0, 0);
+  color: white;
   font-size: 1.5rem;
   font-weight:bold;
   letter-spacing: 2px;
@@ -189,7 +190,8 @@ h2{
   margin-left: auto;
   margin-right: auto;   
   padding: 0px 18px;
-  background-image:url(./background2.jpg);
+  //background-image:url(./background2.jpg);
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
   // background-color: brown;
@@ -227,7 +229,8 @@ h2{
 }
 
 .paragraph {
-  color: rgb(7, 2, 45);
+  //color: rgb(7, 2, 45);
+  color: white;
   font-size: 3rem;
   padding-top: 0;
   padding-bottom: 0;
@@ -236,7 +239,7 @@ h2{
   letter-spacing: 6px;
   line-height: 1.5em;
   font-weight: 800;
-  text-shadow: rgb(245, 241, 241) 1px 1px;
+  //text-shadow: rgb(245, 241, 241) 1px 1px;
   margin: 0;
   //  background-color: aqua;
 }
@@ -254,9 +257,10 @@ h2{
 
 
 .book {
-  color: rgb(31, 13, 127);
+  //color: rgb(31, 13, 127);
+  color: white;
   font-size: 1.6rem;
-  text-shadow: rgba(251, 251, 251, 0.896) 1px 2px;
+  //text-shadow: rgba(251, 251, 251, 0.896) 1px 2px;
   letter-spacing: .1em;
   font-weight: bold;
   margin-top: 10px;
