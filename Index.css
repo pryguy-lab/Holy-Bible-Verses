@@ -121,7 +121,8 @@ nav{
 
   
 nav a:hover{
-  color: rgb(7, 7, 7);
+  //color: rgb(7, 7, 7);
+  color: aqua;
   text-shadow: none;
 }
  
