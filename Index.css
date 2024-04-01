@@ -310,7 +310,9 @@ hr{
   height: 100vh;
   object-fit: cover;
 }
-
+img{
+  height: 100%;
+}
 
 
 .animateBar1{
