@@ -19,7 +19,7 @@ html,body {
   }
   
   .nav-left a, .nav-middle a, .nav-right a,.mobileNav a{
-    color: aqua;
+    color: rgb(0,21,119);
     font-size: 1.5rem;
     font-weight:bold;
     letter-spacing: 2px;
@@ -27,7 +27,7 @@ html,body {
     padding: 2px 10px;
     margin: 0px 5px;
     border: rgba(13, 23, 41, 0.21) 3px solid;
-    text-shadow: rgba(232, 9, 9, 0.896) .5px 1px;
+    text-shadow: rgba(252, 128, 128, 0.896) .5px 1px;
     border-radius: 7px;
     box-shadow: 2px 2px 10px 2px rgba(3, 3, 20, 0.2);
     
@@ -87,8 +87,8 @@ html,body {
       align-items: center;
       justify-content: center; 
       background-color: rgba(0, 0, 0, 0.144);
-    padding:4px; 
-    border-radius: 20px;
+      padding:4px; 
+      border-radius: 20px;
     }
   
     nav{
