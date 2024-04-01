@@ -1,8 +1,7 @@
 html,body {
     font-family: "Felipa", cursive;
     box-sizing: border-box;
-    //background-color: rgb(36, 55, 88);
-    background-color: black;
+    background-color: rgb(36, 55, 88);
     border: rgba(251, 251, 251, 0.896) 2px solid;
     padding-bottom: 5px;
     padding-top: 5px;
@@ -20,8 +19,7 @@ html,body {
   }
   
   .nav-left a, .nav-middle a, .nav-right a,.mobileNav a{
-    //color: rgb(0, 0, 0);
-    color: white;
+    color: aqua;
     font-size: 1.5rem;
     font-weight:bold;
     letter-spacing: 2px;
@@ -29,7 +27,7 @@ html,body {
     padding: 2px 10px;
     margin: 0px 5px;
     border: rgba(13, 23, 41, 0.21) 3px solid;
-    text-shadow: rgba(247, 243, 243, 0.896) .5px 1px;
+    text-shadow: rgba(232, 9, 9, 0.896) .5px 1px;
     border-radius: 7px;
     box-shadow: 2px 2px 10px 2px rgba(3, 3, 20, 0.2);
     
@@ -114,8 +112,7 @@ html,body {
   
     
   nav a:hover{
-    //color: rgb(7, 7, 7);
-    color: aqua;
+    color: rgb(4, 22, 95);
     text-shadow: none;
   }
    
@@ -213,8 +210,7 @@ html,body {
   }
   
   .paragraph {
-    //color: rgb(7, 2, 45);
-    color: white;
+    color: rgb(7, 2, 45);
     font-size: 3rem;
     padding-top: 0;
     padding-bottom: 0;
@@ -223,7 +219,7 @@ html,body {
     letter-spacing: 6px;
     line-height: 1.5em;
     font-weight: 800;
-    //text-shadow: rgb(245, 241, 241) 1px 1px;
+    text-shadow: rgb(245, 241, 241) 1px 1px;
     margin: 0;
     //  background-color: aqua;
   }
@@ -248,10 +244,9 @@ html,body {
   }
   
   .book {
-    //color: rgb(31, 13, 127);
-    color: white;
+    color: rgb(31, 13, 127);
     font-size: 1.6rem;
-    //text-shadow: rgba(251, 251, 251, 0.896) 1px 2px;
+    text-shadow: rgba(251, 251, 251, 0.896) 1px 2px;
     //letter-spacing: .04em;
     font-weight: bold;
   }
