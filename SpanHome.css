@@ -19,7 +19,7 @@ html,body {
   }
   
   .nav-left a, .nav-middle a, .nav-right a,.mobileNav a{
-    color: rgb(0,21,119);
+    color: rgb(18,19,19);
     font-size: 1.5rem;
     font-weight:bold;
     letter-spacing: 2px;
