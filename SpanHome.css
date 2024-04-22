@@ -252,7 +252,7 @@ html,body {
   }
   
   .book::first-letter {
-    font-size: 2.4rem;
+    font-size: 3rem;
     font-weight: bold;
     color: rgb(216, 7, 7);
     text-shadow: rgba(6, 15, 18, 0.89) 2px 2px;
