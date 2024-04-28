@@ -1,5 +1,5 @@
 body{
-    background-color: cornflowerblue;
+    background-color: #7330a6;
     text-align: center;
     font-family: 'Belgrano', serif;
     margin: 0 auto;
@@ -14,7 +14,7 @@ nav a{
     text-decoration: none;
     font-size: 1.5rem;
     border: 2px solid rgba(255, 235, 205, 0.823);
-    color: rgb(189,6,65);
+    color: rgb(101,255,253);
     padding: 2px 6px;
     border-radius: 10px;
     text-shadow: 1px 1px 4px white;
@@ -41,8 +41,8 @@ p{
     letter-spacing: 1px;
 }
 p:hover{
-    color: rgba(255, 0, 0, 0.956);
-    text-shadow: 2px 2px 8px rgb(223, 182, 169);
+    color: rgba(252, 249, 249, 0.956);
+    text-shadow: 2px 2px 8px rgb(246, 5, 5);
     cursor: pointer;
 }
 @media  screen and (max-width:700px) {
