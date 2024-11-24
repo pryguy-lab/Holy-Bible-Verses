@@ -149,7 +149,7 @@ html,body {
     color: rgb(216,7,7);
     font-size: 5rem;
     text-shadow: rgba(6, 15, 18, 0.89) -3px 4px;
-    letter-spacing: -5px;
+    letter-spacing: 1px;
   }
   @media screen and (max-width: 900px) {
     h1 {
@@ -256,6 +256,7 @@ html,body {
     font-weight: bold;
     color: rgb(216, 7, 7);
     text-shadow: rgba(6, 15, 18, 0.89) 2px 2px;
+    letter-spacing: .09em;
   }
   
   .verses {
