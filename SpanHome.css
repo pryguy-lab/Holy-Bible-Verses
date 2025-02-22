@@ -149,7 +149,7 @@ html,body {
     color: rgb(216,7,7);
     font-size: 5rem;
     text-shadow: rgba(6, 15, 18, 0.89) -3px 4px;
-    letter-spacing: 1px;
+    letter-spacing: -.08em;
   }
   @media screen and (max-width: 900px) {
     h1 {
