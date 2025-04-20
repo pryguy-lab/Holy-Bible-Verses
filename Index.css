@@ -192,7 +192,7 @@ h2{
   margin-left: auto;
   margin-right: auto;   
   padding: 0px 18px;
-  /* background-image:url(./background2.jpg); */
+  background-image:url(./background2.jpg);
   background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
