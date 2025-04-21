@@ -37,7 +37,7 @@ nav{
 .nav-left a, .nav-middle a, .nav-right a,.mobileNav a{
   // color: rgb(0, 0, 0);
   color: rgb(18,19,19);
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   font-weight:bold;
   letter-spacing: 2px;
   text-decoration: none;
@@ -90,7 +90,7 @@ nav{
     display: none;
    }
 
-   @media screen and (max-width: 650px){
+   @media screen and (max-width: 660px){
     .hamburger{
     height: 30px;
     width: 40px;
@@ -177,9 +177,9 @@ h2{
 }
 
 @media screen and (max-width: 700px){
-  h1{
+  /* h1{
     margin-top: 0px;
-  }
+  } */
   h2{
     margin-left: 72px;
     margin-right: 72px;
