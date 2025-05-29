@@ -1,4 +1,5 @@
-html,body {
+html,
+body {
   font-family: "Felipa", cursive;
   box-sizing: border-box;
   background-color: rgb(36, 55, 88);
@@ -11,50 +12,49 @@ html,body {
   background-repeat: no-repeat;
 }
 
-.number{
-  color: rgb(216,7,7);
+.number {
+  color: rgb(216, 7, 7);
   letter-spacing: -1px;
   font-size: 1.4rem;
   display: inline-block;
-  transform: translate(4px,-4px);
-  
-  
+  transform: translate(4px, -4px);
 }
-.firstLetter{
-  color: rgb(216,7,7);
+.firstLetter {
+  color: rgb(216, 7, 7);
   font-size: 5rem;
   text-shadow: rgba(6, 15, 18, 0.89) -3px 4px;
-   /* letter-spacing: .5rem; */
-
+  /* letter-spacing: .5rem; */
 }
 
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
 }
 
-.nav-left a, .nav-middle a, .nav-right a,.mobileNav a{
+.nav-left a,
+.nav-middle a,
+.nav-right a,
+.mobileNav a {
   // color: rgb(0, 0, 0);
-  color: rgb(18,19,19);
+  color: rgb(18, 19, 19);
   /* font-size: 1.5rem; */
-  font-weight:bold;
+  font-weight: bold;
   letter-spacing: 2px;
   text-decoration: none;
   padding: 4px 10px;
   border: rgba(13, 23, 41, 0.21) 3px solid;
-  text-shadow: rgba(252, 128, 128, 0.896) .5px 1px;
+  text-shadow: rgba(252, 128, 128, 0.896) 0.5px 1px;
   border-radius: 7px;
   box-shadow: 2px 2px 10px 2px rgba(3, 3, 20, 0.2);
-    
-  //background-color: aqua;
 
+  //background-color: aqua;
 }
 
-.mobileNav a{
+.mobileNav a {
   margin: 10px;
 }
-.mobileNav{
+.mobileNav {
   width: 210px;
   background-color: rgb(114, 168, 226);
   height: 78vh;
@@ -62,7 +62,7 @@ nav{
   flex-direction: column;
   align-items: center;
   position: fixed;
-  z-index: 2;  
+  z-index: 2;
   right: -215px;
   top: 30px;
   border: 2px solid white;
@@ -71,27 +71,25 @@ nav{
   text-align: center;
 }
 
-.openDrawer{
+.openDrawer {
   transform: translateX(-246px);
-
 }
-.close{
+.close {
   transform: translateX(190px);
 }
- .mobileNav .closeDrawer{
+.mobileNav .closeDrawer {
   color: rgb(198, 27, 27);
   border-radius: 50%;
   margin-left: 84px;
   width: 20px;
-
 }
-  
-   .hamburger{
-    display: none;
-   }
 
-   @media screen and (max-width: 660px){
-    .hamburger{
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 660px) {
+  .hamburger {
     height: 30px;
     width: 40px;
     display: flex;
@@ -99,41 +97,41 @@ nav{
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.144);
-    padding:4px; 
+    padding: 4px;
     border-radius: 20px;
   }
 
-  nav{
+  nav {
     justify-content: flex-end;
     margin: 0;
-      
   }
-   .nav-left, .nav-middle, .nav-right{
+  .nav-left,
+  .nav-middle,
+  .nav-right {
     display: none;
-  } 
+  }
   .mobileNav {
     display: flex;
     align-content: stretch;
     justify-content: space-evenly;
     align-items: stretch;
-  }   
-
-   }
-
-  
-nav a:hover{
-  color: blue;
-   //color: aqua;
-   text-shadow: none;
+  }
 }
- 
- .bar1,.bar2,.bar3{
+
+nav a:hover {
+  color: blue;
+  //color: aqua;
+  text-shadow: none;
+}
+
+.bar1,
+.bar2,
+.bar3 {
   background-color: #ffffffd9;
   height: 2px;
   width: 30px;
   border-radius: 10px;
   margin: 3px;
-
 }
 
 h1 {
@@ -147,17 +145,14 @@ h1 {
   border-bottom: 3px rgba(9, 84, 214, 0.275) solid;
   // background-color: aquamarine;
 }
-h2{
+h2 {
   font-size: 3rem;
-  color: rgb(5,117,141);
-  border-bottom: 3px rgba(146,9, 214, 0.275) solid;
+  color: rgb(5, 117, 141);
+  border-bottom: 3px rgba(146, 9, 214, 0.275) solid;
   text-shadow: -1px 2px 0px #0b0740;
   margin: 75px 285px 25px 285px;
   letter-spacing: 8px;
   padding-bottom: 10px;
-
-  
-
 }
 
 @media screen and (max-width: 900px) {
@@ -167,45 +162,46 @@ h2{
     letter-spacing: 3px;
     padding: 0;
   }
-  h2{
+  h2 {
     font-size: 1.5rem;
     margin: 48px 210px 15px 210px;
     letter-spacing: 5px;
   }
-  
- 
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
   /* h1{
     margin-top: 0px;
   } */
-  h2{
+  h2 {
     margin-left: 72px;
     margin-right: 72px;
   }
 }
-
+article {
+  font-size: 1.5rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  padding: 1rem;
+}
 
 .text-container {
   border: solid 5px rgba(21, 7, 228, 0.748);
   margin-left: auto;
-  margin-right: auto;   
+  margin-right: auto;
   padding: 0px 18px;
-  background-image:url(./background2.jpg);
+  background-image: url(./background2.jpg);
   background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
-   
 }
-.Cross{
+.Cross {
   display: flex;
   justify-content: space-around;
   box-sizing: border-box;
   margin: 0 0 18px 0;
-
 }
-.Cross img{
+.Cross img {
   width: 100%;
   margin: 30px 0 0 0;
   opacity: 1;
@@ -215,7 +211,7 @@ h2{
   .text-container {
     padding: 8px;
   }
-  .Cross{
+  .Cross {
     margin: 0;
   }
 }
@@ -225,8 +221,7 @@ h2{
   flex: 1;
   margin-top: 20px;
   max-width: 500px;
-     //background-color: bisque;
-    
+  //background-color: bisque;
 }
 
 .paragraph {
@@ -255,12 +250,11 @@ h2{
   }
 }
 
-
 .book {
   color: rgb(31, 13, 127);
   font-size: 1.6rem;
   text-shadow: rgba(251, 251, 251, 0.896) 1px 2px;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   font-weight: bold;
   margin-top: 10px;
 }
@@ -275,18 +269,17 @@ h2{
   p::first-letter {
     font-size: 3.5rem;
   }
-  body{
+  body {
     margin: 0 auto;
-  }.book{
-    letter-spacing: .06em;
   }
-  
-  
+  .book {
+    letter-spacing: 0.06em;
+  }
 }
 
 .verses {
   font-size: 1em;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
 }
 
 .version {
@@ -294,35 +287,32 @@ h2{
   font-weight: bold;
 }
 
-hr{
+hr {
   border-bottom: 3px rgba(9, 84, 214, 0.24) solid;
-  margin: 30px ;
- 
+  margin: 30px;
 }
-.grid{
+.grid {
   position: relative;
   width: 100%;
   height: 100vh;
 }
-.grid img{
+.grid img {
   width: 100%;
   height: 100vh;
   object-fit: cover;
 }
-img{
+img {
   height: 100%;
 }
 
-
-.animateBar1{
-  animation: fadeBar1 .25s forwards;
+.animateBar1 {
+  animation: fadeBar1 0.25s forwards;
 }
-.animateBar2{
-  animation: fadeBar2 .5s forwards;
+.animateBar2 {
+  animation: fadeBar2 0.5s forwards;
 }
-.animateBar3{
-  animation: fadeBar3 .25s forwards;
-
+.animateBar3 {
+  animation: fadeBar3 0.25s forwards;
 }
 
 @keyframes fadeBar1 {
@@ -330,11 +320,9 @@ img{
     transform: scalex(1);
     opacity: 1;
   }
-   to{
+  to {
     transform: scalex(0);
     opacity: 0;
-
-
   }
 }
 
@@ -343,24 +331,18 @@ img{
     transform: scalex(1);
     opacity: 1;
   }
-   to{
+  to {
     transform: scalex(0);
     opacity: 0;
-
-
   }
-  
 }
 @keyframes fadeBar3 {
   from {
     transform: scalex(1);
     opacity: 1;
   }
-   to{
+  to {
     transform: scalex(0);
     opacity: 0;
-
-
   }
-  
 }
