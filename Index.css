@@ -133,6 +133,12 @@ nav a:hover {
   border-radius: 10px;
   margin: 3px;
 }
+article {
+  font-size: 1.5rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  padding: 1.5rem;
+}
 
 h1 {
   text-align: center;
@@ -177,12 +183,9 @@ h2 {
     margin-left: 72px;
     margin-right: 72px;
   }
-}
-article {
-  font-size: 1.5rem;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: bold;
-  padding: 1rem;
+  article {
+    font-size: 1rem;
+  }
 }
 
 .text-container {
