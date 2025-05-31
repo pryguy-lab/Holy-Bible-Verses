@@ -80,6 +80,12 @@ nav {
     padding: 0 8px;
   }
 }
+article {
+  font-size: 1.5rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  padding: 1rem;
+}
 
 @media screen and (max-width: 660px) {
   .hamburger {
@@ -111,6 +117,9 @@ nav {
   }
   body {
     margin: 0 auto;
+  }
+  article {
+    font-size: 1rem;
   }
 }
 
@@ -163,13 +172,6 @@ h1 {
   h2 {
     margin: 0;
   }
-}
-
-article {
-  font-size: 1.5rem;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: bold;
-  padding: 1rem;
 }
 
 .text-container {
