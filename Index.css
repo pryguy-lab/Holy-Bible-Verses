@@ -21,9 +21,8 @@ body {
 }
 .firstLetter {
   color: rgb(216, 7, 7);
-  font-size: 5rem;
+  font-size: 3rem;
   text-shadow: rgba(6, 15, 18, 0.89) -3px 4px;
-  /* letter-spacing: .5rem; */
 }
 
 nav {
@@ -47,8 +46,6 @@ nav {
   text-shadow: rgba(252, 128, 128, 0.896) 0.5px 1px;
   border-radius: 7px;
   box-shadow: 2px 2px 10px 2px rgba(3, 3, 20, 0.2);
-
-  //background-color: aqua;
 }
 
 .mobileNav a {
@@ -120,7 +117,6 @@ nav {
 
 nav a:hover {
   color: blue;
-  //color: aqua;
   text-shadow: none;
 }
 
@@ -149,7 +145,6 @@ h1 {
   padding: 15px 0;
   font-size: 4.5rem;
   border-bottom: 3px rgba(9, 84, 214, 0.275) solid;
-  // background-color: aquamarine;
 }
 h2 {
   font-size: 3rem;
@@ -176,9 +171,6 @@ h2 {
 }
 
 @media screen and (max-width: 700px) {
-  /* h1{
-    margin-top: 0px;
-  } */
   h2 {
     margin-left: 72px;
     margin-right: 72px;
@@ -224,11 +216,10 @@ h2 {
   flex: 1;
   margin-top: 20px;
   max-width: 500px;
-  //background-color: bisque;
 }
 
 .paragraph {
-  color: rgb(7, 2, 45);
+  color: #07022d;
   font-size: 3rem;
   padding-top: 0;
   padding-bottom: 0;
@@ -239,12 +230,11 @@ h2 {
   font-weight: 800;
   text-shadow: rgb(245, 241, 241) 1px 1px;
   margin: 0;
-  //  background-color: aqua;
 }
 
 @media screen and (max-width: 900px) {
   .paragraph {
-    font-size: 2.5rem;
+    font-size: 2rem;
     letter-spacing: 2px;
     padding-top: 0;
     padding-right: 7px;
@@ -270,7 +260,7 @@ h2 {
 }
 @media screen and (max-width: 786px) {
   p::first-letter {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   body {
     margin: 0 auto;
