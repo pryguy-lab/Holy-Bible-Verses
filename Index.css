@@ -24,6 +24,9 @@ body {
   font-size: 3.5rem;
   text-shadow: rgba(6, 15, 18, 0.89) -3px 4px;
 }
+.JW {
+  color: red;
+}
 
 nav {
   display: flex;
