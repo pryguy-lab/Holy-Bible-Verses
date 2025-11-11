@@ -147,7 +147,6 @@ h1 {
   padding: 15px 0;
   font-size: 3.5rem;
   border-bottom: 3px rgba(9, 84, 214, 0.275) solid;
-  // background-color: aquamarine;
 }
 .number {
   color: rgb(216, 7, 7);
@@ -247,7 +246,6 @@ h1 {
   color: rgb(31, 13, 127);
   font-size: 1.6rem;
   text-shadow: rgba(251, 251, 251, 0.896) 1px 2px;
-  //letter-spacing: .04em;
   font-weight: bold;
 }
 
@@ -273,7 +271,6 @@ h1 {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  // background-color: rgba(49, 136, 136, 0.627);
 }
 
 hr {
