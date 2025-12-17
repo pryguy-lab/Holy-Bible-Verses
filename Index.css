@@ -13,7 +13,7 @@ body {
 }
 
 .number {
-  color: blue;
+  color: rgb(243, 3, 3);
   letter-spacing: -1px;
   font-size: 1.4rem;
   display: inline-block;
