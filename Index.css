@@ -171,6 +171,9 @@ h2 {
     margin: 48px 210px 15px 210px;
     letter-spacing: 5px;
   }
+  .number {
+    transform: translate(9px, -4px);
+  }
 }
 
 @media screen and (max-width: 700px) {
