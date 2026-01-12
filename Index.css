@@ -17,7 +17,7 @@ body {
   letter-spacing: -1px;
   font-size: 1.4rem;
   display: inline-block;
-  transform: translate(4px, -4px);
+  transform: translate(-4px, -4px);
 }
 .firstLetter {
   color: rgb(216, 7, 7);
@@ -172,7 +172,7 @@ h2 {
     letter-spacing: 5px;
   }
   .number {
-    transform: translate(9px, -4px);
+    transform: translate(-2px, -4px);
   }
 }
 
